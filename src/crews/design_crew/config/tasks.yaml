@@ -1,9 +1,3 @@
-#random_generator:
-#  description: >
-#
-#  expected_output: >
-#    A JSON formatted output containing the parameter name and generated random value
-
 sample_designs:
   description: >
     Given the set of requirement {tech_req}, generate samples using num_samples = 100 by default (unless specified in the requirement) using the `Geometry_sampling_tool'. Use one of the following sampling strategy with this tool: ['lhs', 'sobol', 'halton', 'random'].
