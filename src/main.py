@@ -175,13 +175,5 @@ def kickoff():
     final_output = design_flow.kickoff()
     print(f"Final output: {final_output}")
 
-
-def plot():
-    with open("design_reqs.txt", "r") as reqs:
-        design_requirements = reqs.read()
-    shakespeare_flow = AirfoilDesignFlow(design_requirements)
-    shakespeare_flow.plot()
-
-
 if __name__ == "__main__":
     kickoff()
