@@ -1,4 +1,4 @@
-# multiagent_autonomous_design
+# Toward Autonomous Engineering Design: A Knowledge-Guided Multi-Agent Framework
 An implementation of multi-agent autonomous design framework using ontological knowledge graphs as grounding agents for design iteration, evaluation, and review
 Arxiv version of manuscript can be found here: https://arxiv.org/abs/2511.03179
 
