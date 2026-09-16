@@ -1,0 +1,121 @@
+create_requirements:
+  description: >
+    Your task is to assess the user_input {user_input} and convert it into a technical requirement for use by design engineer in conceptual design. You should use the knowledge source showing important concepts related to airfoil design and development in the form of a graph presented as a csv table with node_1 (concept from ontology), node_2 (related concept from ontology), relationship between node_1 and node_2. Use this graph to identify important considerations for new airfoil design and development. Be specific about the functional and non-functional requirements based on user_input and your prior knowledge. Restrict these requirements to be specific to the 4-series NACA airfoils with design limits of max_camber: [0.01, 0.095], camber_loc: [0.05, 0.9], thickness: [0.01, 0.40]. Focus on how to provide a technical description of the product requirements. Provide clear constraints on any design parameters, operating conditions that will be useful for a design engineer. The requirements should focus on the design parameters that are critical for airfoil designing. 
+    Your final response must include:
+    - Functional_req: Bullet list of functional requirements including specifications, geometry parameters of interest and the design space available
+    - Non_functional_req: Bullet list of non-functional requirements such as manufacturability, performance, aesthetic that are related to design parameters
+  expected_output: >
+    Functional_req: Bullet list of functional requirements
+    Non_functional_req: Bullet list of non-functional requirements
+  markdown: True
+  output_file: ./design_requirements/requirements.md
+  create_directory: True
+  agent: systems_engineer
+
+# Also specifically label the elements of your response that was retrieved from the knowledge source as (src:KG, retieved knowledge info), along with reasoning for why this information was retrieved from the knowledge source.
+
+#analyze_profile:
+#  description: >
+#    Your task is to analyze the image at {image_location} containing an airfoil profile using the vision tool and knowledge source available to you. Specifically label the elements of your response that was retrieved from the knowledge source as (src:KG, retieved knowledge info), along with reasoning for why this information was retrieved from the knowledge source. You will also receive an iteration number {iter_num} that indicates the number of design review steps that have been accomplished. Additionally, you will also receive a {Design_ID} that helps identify the design number you need to review.
+#
+#    Here are the things you should consider:
+#    - Is the airfoil profile shown in the provided image suitable to meet the technical requirements {engg_requirements}?
+#    - Is the airfoil profile provided through images follows conventions regarding airfoil profiles based on your knowledge?
+#    - What profile improvements can be made to meet the technical requirements?
+#
+#    Your final response must include:
+#     - Design_ID: {Design_ID}
+#     - Feedback: Provide a high-level feedback about the airfoil profile based on your analysis of the image
+#  expected_output: >
+#    Design_ID: Filename
+#    Feedback: High-level feedback about the airfoil profile
+#  markdown: True
+#  output_file: ./design_review/profile_assessment_{Design_ID}_{iter_num}.md
+#  create_directory: True
+#  agent: systems_engineer
+#  human_input: False
+
+#verify_designs:
+#  description: >
+#    Your task is to assess the airfoil profile analysis {{analyze_profile.output}} you generated earlier, analytical aerodynamic data CD: {CD}, CL: {CL}, CM: {CM}, and geometric parameters: camber:{camber}, camber_location:{camber_loc}, thickness:{thickness} of airfoil shapes provided and assess the suitability of each profile based on knowledge source availabe to you. Specifically label the elements of your response that was retrieved from the knowledge source as (src:KG, retieved knowledge info), along with reasoning for why this information was retrieved from the knowledge source. Ensure that you analyze the aerodynamic data and geometric parameters to create a comprehensive response. You should also include any human input provided during this process and include it in your response. You will also receive an iteration number {iter_num} that indicates the number of design review steps that have been accomplished which you should use to create the output_file containing the reviews. Additionally, you will also receive a {Design_ID} that helps identify the design number you need to review.
+#
+#    Here are the things you should consider:
+#    - Are the design parameters provided conventionally used for airfoil design? How choices of these design parameters affect airfoil's performance and suitability?
+#    - How does this airfoil design fulfil the non-functional requirements provided within the {engg_requirements}?
+#    - How can the design be improved further to meet the product requirements?
+#    - Is the CL value less than 0.5? If yes, the design is considered invalid as a rule of thumb.
+#
+#    Your final response must include:
+#    - Design_ID: {Design_ID}
+#    - Feedback: Provide detailed and comprehensive review on your assesment of the airfoil shape based on its profile by combining response from {{analyze_profile.output}}, aerodynamic performance, and parameter values provided. Include suggestions for improving design through better choice of design parameters or profile modifications along with any human_input that you see relevant. Include the design parameters for the existing design as a reference while creating your feedback for the design team. Ensure that you include whether the design is Valid or not in your feedback.
+#    - Valid: Status of current design in meeting {engg_requirements} based on your judgement(True/False)
+#
+#  expected_output: >
+#    Design_ID: Filename
+#    Feedback: Detailed review of airfoil design based on knowledge source and design improvement suggestions
+#    Valid: True/False
+#  markdown: True
+#  output_file: ./design_review/design_assessment_{Design_ID}_{iter_num}.md
+#  create_directory: True
+#  agent: systems_engineer
+#  human_input: True
+
+# Specifically label the elements of your response that was retrieved from the knowledge source as (src:KG, retieved knowledge info), along with reasoning for why this information was retrieved from the knowledge source.
+
+verify_designs:
+  description: >
+    Your task is to analyze the image_file which shows an airfoil profile along with analytical aerodynamic data CD: {CD}, CL: {CL}, CM: {CM}, and geometric parameters: camber:{camber}, camber_location:{camber_loc}, thickness:{thickness} of airfoil shapes provided and assess the suitability of each profile based on knowledge source availabe to you. Ensure that you analyze the airfoil profile, aerodynamic data and geometric parameters to create a comprehensive response. Assume the aerodynamic data is accurate and analyze the image from the perspective of design review of the shape.
+    
+    You should also include any human input when provided during this process and include it in your response. You will also receive an iteration number {iter_num} that indicates the number of design review steps that have been accomplished which you should use to create the output_file containing the reviews. Additionally, you will also receive a {Design_ID} that helps identify the design number you need to review.
+    
+    Here are the things you should consider:
+    - Is the airfoil profile shown in the provided image suitable to meet the technical requirements {engg_requirements}?
+    - Is the airfoil profile provided in the image follow general design conventions based on your knowledge?
+    - Are the design parameters provided conventionally used for airfoil design? How choices of these design parameters affect airfoil's performance and suitability?
+    - How does this airfoil design fulfil the non-functional requirements provided within the {engg_requirements}?
+    - Does the design satisfy NACA parameter limits: max_camber: [0.01, 0.095], camber_loc: [0.1, 0.9], thickness: [0.06, 0.40]?
+    - How can the design be improved further to meet the product requirements?
+    - Is the Cl value less than 0.5? If yes, the design is considered invalid as a rule of thumb.    
+    
+    Your final response must include:
+    - Design_ID: {Design_ID}
+    - Feedback: Provide a summarized review on your assesment of the airfoil shape based on its profile by combining image analysis (atleast 2 lines), aerodynamic performance, and parameter values provided (3-5 lines). Include suggestions for improving design through better choice of design parameters or profile modifications along with any human_input when available that you see relevant. Include the design parameters for the existing design as a reference while creating your feedback for the design team. 
+    - Valid: Status of current design in meeting {engg_requirements} based on your judgement(True/False). Mark design as False only when you are 100% sure that it will not meet requirements.
+  expected_output: >
+    Design_ID: Filename
+    Feedback: Summary of design review and design improvement suggestions in 5-6 lines
+    Valid: True/False
+  markdown: True
+  output_file: ./design_review/design_assessment_{Design_ID}_{iter_num}.md
+  create_directory: True
+  agent: systems_engineer
+  human_input: False
+
+verify_designs_noimg:
+  description: >
+    Your task is to analyze analytical aerodynamic data CD: {CD}, CL: {CL}, CM: {CM}, and geometric parameters: camber:{camber}, camber_location:{camber_loc}, thickness:{thickness} of airfoil shapes provided and assess the suitability of each airfoil based on knowledge source availabe to you. Ensure that you analyze the aerodynamic data and geometric parameters to create a comprehensive response. Assume the aerodynamic data is accurate.
+    
+    You should also include any human input when provided during this process and include it in your response. You will also receive an iteration number {iter_num} that indicates the number of design review steps that have been accomplished which you should use to create the output_file containing the reviews. Additionally, you will also receive a {Design_ID} that helps identify the design number you need to review.
+    
+    Here are the things you should consider:
+    - Is the airfoil design suitable to meet the technical requirements {engg_requirements}?
+    - Does the airfoil design follow general design conventions based on your knowledge?
+    - Are the design parameters provided conventionally used for airfoil design? How choices of these design parameters affect airfoil's performance and suitability?
+    - How does this airfoil design fulfil the non-functional requirements provided within the {engg_requirements}?
+    - Does the design satisfy NACA parameter limits: max_camber: [0.01, 0.095], camber_loc: [0.1, 0.9], thickness: [0.06, 0.40]?
+    - How can the design be improved further to meet the product requirements?
+    - Is the Cl value less than 0.5? If yes, the design is considered invalid as a rule of thumb.    
+    
+    Your final response must include:
+    - Design_ID: {Design_ID}
+    - Feedback: Provide a summarized review on your assesment of the airfoil shape by combining aerodynamic performance, and parameter values provided (3-5 lines). Include suggestions for improving design through better choice of design parameters or profile modifications along with any human_input when available that you see relevant. Include the design parameters for the existing design as a reference while creating your feedback for the design team. 
+    - Valid: Status of current design in meeting {engg_requirements} based on your judgement(True/False). Mark design as False only when you are 100% sure that it will not meet requirements.
+  expected_output: >
+    Design_ID: Filename
+    Feedback: Summary of design review and design improvement suggestions in 5-6 lines
+    Valid: True/False
+  markdown: True
+  output_file: ./design_review/design_assessment_{Design_ID}_{iter_num}.md
+  create_directory: True
+  agent: systems_engineer
+  human_input: False

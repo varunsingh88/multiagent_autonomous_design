@@ -1,0 +1,83 @@
+#random_generator:
+#  description: >
+#
+#  expected_output: >
+#    A JSON formatted output containing the parameter name and generated random value
+
+sample_designs:
+  description: >
+    Given the set of requirement {tech_req}, generate samples using num_samples = 100 by default (unless specified in the requirement) using the `Geometry_sampling_tool'. Use one of the following sampling strategy with this tool: ['lhs', 'sobol', 'halton', 'random'].
+  expected_output: >
+        A string indicating when the process is complete
+  agent: airfoil_designer
+
+design_airfoil:
+  description: >
+    Use the 'NACA Generator Tool' and generate new airfoil designs.
+  expected_output: >
+    A string indicating when the process is complete
+  agent: airfoil_designer
+
+visualize_airfoil:
+  description: >
+    Utilize the 'Plot_NACA_airfoil' tool and visualize new airfoil designs.
+  expected_output: >
+        A confirmation string when visualization is complete
+  agent: airfoil_designer
+
+analyze_airfoil:
+  description: >
+    Utilize the 'Airfoil evaluation tool' and analyze new airfoil designs. Use flow parameter specification provided in the requirement {tech_req} for Re, AoA, Ma. If no specification is available, use Re=5e6, AoA=0 deg, and Ma=0.6 by default
+  expected_output: >
+    A confirmation string when aerodynamic analysis is complete
+  agent: airfoil_designer
+
+select_design:
+  description: >
+    Utilize the str_output from "{{analyze_airfoil.output}}" containing aerodynamic analysis data. Identify designs with minimum CL value greater than or equal to 0.5 by passing `CL_min' = 0.5 to the 'Airfoil_selection_tool' along with `num_samples'= 5
+  expected_output: >
+    A confirmation string when analysis is complete and list of design IDs.
+  agent: airfoil_designer
+
+revise_design:
+  description: >
+    Utilize the feedback {feedback} received from the systems engineer and the requirements {tech_requirements} to determine the most suitable design to meet these needs. You need to choose the best design even though the {feedback} may contain suggestions for multiple designs or no valid design. Use the knowledge base available to you for this decision and focus on 4-series NACA airfoils only. Identify the relationship between design parameters defining the airfoil and how they can be chosen to best meet the requirements while inculcating the feedback. Determine the best choice for [max_camber, camber_loc, thickness] and use it as input with 'generate_revised_airfoil' tool to generate the new airfoil design. Remember, the 'generate_revised_airfoil' tool uses numbers for these parameters and not \% so pass the values accordingly (such as 12\% = 0.12 etc). Also use the {design_iter} count with the `generate_revised_airfoil' tool as required by the tool. Include your reasoning for the design modification and any knowledge source reference that you may have used while making your decision.
+  expected_output: >
+    A confirmation message when design revision is complete
+  agent: airfoil_designer
+  markdown: True
+  output_file: ./design_analysis/design_engg_revision{design_iter}_feedback.md
+  create_directory: True
+
+revise_plot:
+  description: >
+    Pass {design_iter} to the 'plot_revised_airfoil' tool and visualize revised airfoil designs.
+  expected_output: >
+    A confirmation string when updated design plot is complete
+  agent: airfoil_designer
+
+revise_analysis:
+  description: >
+    Pass {design_iter} to the 'evaluate_revision_tool' and analyze aerodynamic performance of revised airfoil designs. Use flow parameter specification provided in the requirement {tech_requirements} for Re, AoA, Ma. If no specification is available, use Re=5e6, AoA=0 deg, and Ma=0.6 by default
+  expected_output: >
+    A confirmation string when aerodynamic analysis is complete with design revision#
+  agent: airfoil_designer
+
+#optimize_design:
+#  description: >
+#    Your task is to review the {optimization} problem provided to you along with the {design_analysis} for few airfoil shapes provided by the systems_engineer. From the design_analysis, you should select one airfoil shape that is promising in terms of meeting the optimization objectives and constraints. You should also use your knowledge source to make this selection. Specifically label the elements of your response that was retrieved from the knowledge source as (src:KG, retieved knowledge info), along with reasoning for why this information was retrieved from the knowledge source. The design_analysis from the systems_engineer will have a `design_ID' for each airfoil, so identify this design_ID. Format this design_ID to remove any filetype such as `.png' or '.jpg', and then pass it to the `Optimization_tool' along with other optimization parameters required by the `Optimization_tool' that you extract from the optimization problem. If you receive a human input, please process the request and re-run this task if required.
+#
+#    Your final response must include:
+#    - design_ID: design ID for airfoil profile selected for optimization process
+#    - feedback: Provide commentary on your reason for selecting the design for optimization
+#    - optimized_airfoil_loc: Full directory location where final optimized airfoil coordinates is saved
+#  expected_output: >
+#    - design_ID
+#    - feedback
+#    - optimized_airfoil_loc
+#    Ensure that each entry is on a separate line for readability
+#  markdown: False
+#  output_file: ./design_analysis/optim_engg_feedback.md
+#  create_directory: True
+#  agent: airfoil_designer
+#  human_input: True

@@ -1,0 +1,1407 @@
+node_1,node_2,edge
+Cambered airfoil section,Symmetrical airfoil section,The aerodynamical characteristics of five of the modified sections are presented; three of those are symmetrical and two are cambered with the NACA mean line a = 0.8 (modified).
+Cambered airfoil section,Shock,Shock develops shortly after formation on the rear portion of the cambered airfoil.
+Cambered airfoil section,Flow separation,A cambered airfoil section can experience flow separation	 leading to force-break.
+Airfoil Design Optimization,Simulated Annealing,Used to search designs for airfoils and evaluate their performance
+center of pressure,stall,As stall begins	 the center of pressure moves away from the pitch axis and toward the midchord.
+center of pressure,reduced frequency,An increase in reduced frequency causes the center of pressure to move forward toward the quarter-chord location.
+center of pressure,camber location,The camber location influences the center of pressure on an airfoil. Moving camber towards the leading edge shifts the CP forward	 while moving it towards the trailing edge shifts it aft.
+Leading-edge roughness,Lift coefficient,Roughness on the leading edge causes large reductions in lift coefficient	 particularly for thicker sections.
+Experimental data,DSMC,DSMC calculation compares better with experimental data for boundary conditions than freestream conditions.
+Experimental data,Navier-Stokes,Navier-Stokes calculation compares well with experimental data but has less scatter than DSMC.
+Drag coefficient (CD),Angle of attack,The drag coefficient also increases with increasing angle of attack	 but at a faster rate than the lift coefficient.
+Drag coefficient (CD),Airfoil,Airfoil has a drag coefficient (CD) that varies with Reynolds number and angle of attack
+Drag coefficient (CD),Camber,Higher camber values can also increase the drag coefficient due to flow separation.
+Drag coefficient (CD),Thickness ratio,A higher thickness ratio increases the drag coefficient because a thicker airfoil causes more flow disruption and separation.
+NACA airfoil,Mean camber line,The NACA airfoil is defined by its mean camber line.
+NACA airfoil,Camber distribution,The NACA airfoil has a symmetrical thickness distribution and camber distribution.
+NACA airfoil,Thickness distribution,NACA airfoils are also defined by their thickness distribution	 with NACA 63-012 following the basic thickness form with a maximum thickness of 0.22 percent chord.
+NACA airfoil,Thickness ratio,The thickness ratio affects the minimum drag of an airfoil.
+NACA airfoil,Maximum thickness location,The NACA airfoil series indicates the location of maximum thickness.
+NACA airfoil,Camber,Influence of camber on NACA airfoils
+NACA airfoil,Cl,'Cl' represents lift coefficient of NACA airfoils
+NACA airfoil,Reynolds number,The performance of NACA airfoils varies with Reynolds number
+NACA airfoil,Manufacturability,NACA airfoils are designed for easy manufacturability
+NACA airfoil,camber,NACA airfoils are characterized by their camber line	 with '4' series having positive camber and '6' series having negative camber
+NACA airfoil,Airfoil coordinates,The NACA airfoil has specific coordinates that define its shape.
+NACA airfoil,Airfoil,Airfoils can be categorized as NACA airfoils
+time,pressure,The pressure increases between certain time intervals	 specifically between 100 and 190 milliseconds.
+NACA four-digit wing-section numbering system,maximum thickness (T),The third and fourth digits in NACA four-digit system represent T	 the maximum thickness.
+NACA four-digit wing-section numbering system,maximum ordinate of mean line (M),The first two integers in NACA four-digit system represent M	 the maximum ordinate of mean line for symmetrical sections.
+NACA four-digit wing-section numbering system,chordwise position of maximum ordinate (C%),The third and fourth digits in NACA four-digit system represent C%	 the chordwise position of maximum ordinate.
+NACA four-digit wing-section numbering system,airfoil design,The NACA four-digit system is used to represent and identify different airfoil geometries based on their design parameters
+Leading Edge Radius,Maximum Lift Coefficient,Decreasing leading-edge radius increases maximum lift coefficient.
+Leading Edge Radius,Drag,Increasing leading-edge radius increases drag due to larger surface area.
+Leading Edge Radius,NACA 65-012,NACA 65-012 has a leading edge radius of 1.000 percent 'c'
+Camber,Lift Coefficient,The amount of camber affects the lift coefficient of an airfoil.
+Camber,Airfoil,An airfoil has camber	 which is the amount by which the mean line of an airfoil section departs from a straight line.
+Camber,Mean line,Camber is measured based on the deviation of the mean line of an airfoil.
+Camber,NACA ACR No.,The NACA ACR number is used to specify the desired camber of an airfoil section.
+Camber,Lift coefficient,The camber of an airfoil affects its lift coefficient.
+Camber,Drag characteristics,Various amounts of camber affect the drag characteristics as shown in figure 15
+Camber,Section,A section has camber	 which affects its lift and drag characteristics
+Camber,Lift,The amount of camber in an airfoil affects its lift coefficient.
+Camber,Angle of zero lift,The angle of zero lift of an airfoil is largely determined by its camber
+Camber,Critical lift coefficient,The critical lift coefficient also varies with camber of the airfoil.
+Camber,Lift coefficient (Cl),The camber line affects the airfoil's lift coefficient	 which is crucial for its aerodynamic performance.
+Camber,Drag coefficient (Cd),As the camber increases beyond the optimum value	 the drag coefficient also increases significantly due to increased boundary layer separation.
+Camber,CL,The amount of camber in an airfoil significantly affects its lift coefficient (CL).
+Camber,Airfoil geometry,Camber is an important aspect of airfoil geometry that affects its performance.
+Camber,Thickness,The camber of an airfoil affects its thickness distribution.
+Camber,X/C,Camber's value changes at different points along the chord length (X/C).
+Camber,Performance,The camber of an airfoil affects its lift and drag	 hence its performance.
+Camber,Leading Edge,Camber starts at the Leading Edge.
+Camber,Trailing Edge,Camber ends at the Trailing Edge.
+Camber,Camber Location,The camber of an airfoil is located at a specific position along the chord line.
+Camber,Camber location,The degree of camber is located at a specific position along the chord line.
+Camber,Airfoil Shape,Camber is a key parameter in determining the shape of an airfoil.
+Camber,Maximum lift coefficient,Moderately cambered NACA 6-series airfoils have high maximum lift coefficients
+Camber,Drag,Increasing camber increases drag due to flow separation over the airfoil.
+Camber,Mach number,Increasing amounts of camber produced decreases in lift-and-drag-divergence Mach numbers at low lift coefficients and increases in the values of these parameters at moderate to large lift coefficients
+Camber,NACA TN 2998,The document NACA TN 2998 discusses the effects of camber on aerodynamic characteristics
+Camber,Airfoil shape,Camber is a measure of the curvature of an airfoil's upper surface relative to its lower surface
+Camber,Airfoil section,An airfoil section	 such as the NACA 65-410	 can have camber
+Camber,Flap,The camber of the flap influences its ability to generate lift	 with greater camber leading to increased lift.
+Camber,Airfoil Section,A section of an airfoil has camber	 which affects its performance.
+Camber,Lift Coefficient (CL),Increasing camber increases the lift coefficient.
+Camber,(t/C)max,(t/C)max is used to denote the maximum camber as a fraction of chord length
+Camber,Pitching-moment coefficient,Absence of camber results in pitching-moment coefficient of 0.000.
+Camber,NACA 4415,The NACA 4415 airfoil has a camber line with a maximum camber of approximately 0.135 at around 60% chord.
+Camber,Airfoil Thickness,Efficient airfoils with moderate thickness and camber typically show sudden breaks in their lift curves at the maximum for higher Reynolds numbers.
+Camber,NACA Airfoil,NACA airfoils have a specific camber line which is defined by their NACA number (653-01 in this case).
+Camber,Airfoil performance,The camber (lift) of an airfoil significantly affects its aerodynamic performance	 including lift and drag.
+Camber,NACA 0010-34,Adding camber to NACA 0010-34 increases its lift coefficient
+Camber,Maximum Lift Coefficient,Increasing camber increases maximum lift coefficient	 but too much camber reduces it due to flow separation.
+Camber,NACA 0010-35,The NACA 0010-35 has a specific camber line
+Camber,Thickness distribution,The thickness distribution contributes to the camber of an airfoil.
+Camber,Critical Mach Number,The effect of camber is to lower the maximum critical mach number and shift the range of high critical mach numbers.
+Camber,NAOA 56-series sections,The NAOA 56-series sections are cambered for a design lift coefficient
+Camber,Pitching moment,The pitching moment of an airfoil section is primarily a function of its camber.
+Camber,Camber line,Camber is represented by the camber line	 the curve connecting the midpoints of the airfoil's thickness
+Camber,Tip section,Increasing the camber of the tip section can increase its critical speed	 but it may also limit the permissible washout.
+Camber,NACA 23015.6,NACA 23015.6 has a camber of 4.8%
+Camber,NACA 63	4-020,NACA 63	4-020 has a camber of 4.4 percent chord at the trailing edge
+Camber,Airfoil Performance,Camber is a key parameter affecting the performance of an airfoil in terms of lift and drag.
+Camber,Airfoil coordinates,These coordinates include data about the camber of the airfoil	 which affects its lift and drag characteristics.
+Camber,Mean Line,Mean line determines camber of the airfoil
+Camber,Lift coefficient (C_L),A increase in camber increases the lift coefficient at low angles of attack.
+Camber,Thickness ratio,NACA airfoils have a camber line and thickness ratio	 as indicated by the NACA codes (e.g.	 NACA 643-418).
+Camber,Camber Line,Camber is defined by its camber line.
+Camber,NACA 654-221,The camber line	 connecting the points of maximum ordinate on both surfaces	 is a defining characteristic of NACA 654-221
+Camber,NACA 63-series,The NACA 63-series airfoils are cambered for various design lift coefficients.
+Camber,Angle of Attack,The angle of attack significantly affects the camber's performance	 influencing lift and stall behavior.
+Camber,Section angle of attack,The section angle of attack influences the camber line's shape and location.
+Camber,Lift coefficient (CL),The camber of an airfoil affects its lift coefficient. Increasing camber increases CL up to a point	 after which further increase in camber causes separation and a drop in CL.
+design lift coefficient,NAC A 65	3-218,'5' gives the design lift coefficient in tenths.
+design lift coefficient,Airfoil,An airfoil has a design lift coefficient	 which is the lift coefficient at which the airfoil was designed to operate
+design lift coefficient,lift coefficient,Design lift coefficient is the value of lift coefficient at which the airfoil was designed to operate
+design lift coefficient,NACA 652-215,For NACA 652-215	 the design lift coefficient is given as 0.2
+design lift coefficient,maximum lift coefficient,The subroutine MAXCL uses the design lift coefficient to estimate the maximum lift coefficient
+design lift coefficient,maximum camber,The subroutine CLDVSZ finds the maximum camber if the design lift coefficient is input
+design lift coefficient,NACA 6-series airfoils,The 'z' digit following the dash in the NACA 6-series designation gives the design lift coefficient.
+design lift coefficient,camber,Increased camber causes decreased design lift coefficient
+Mach Number,Leading Edge,Mach number is normal to the leading edge
+Mach Number,Pitching-Moment Coefficient,The pitching-moment coefficient varies with Mach number	 but its behavior is not as clearly understood compared to drag and lift coefficients
+Mach Number,Maximum Lift Coefficient,High Mach numbers reduce the maximum achievable lift coefficient
+Mach Number,Thickness Ratio,According to the transonic similari$y rule	 drag coefficient is related to thickness ratio and Mach number
+Mach Number,Lift Coefficient,The trend shows decreasing optimum camber with increasing Mach number and varying lift coefficients.
+Scale effects,Airfoil characteristics,Tests investigated how scale affects airfoil characteristics.
+Coding Operators,Genetic Algorithms,In GA	 C may stand for either real or binary coding
+Roughness,NACA ACR,The NACA ACR is affected by roughness	 with the effect being more pronounced at low-drag ranges.
+Roughness,Airfoil Surface,If the airfoil surface is sufficiently rough near the leading edge	 large drag increases are expected
+Roughness,Maximum lift coefficient,Roughness affects the maximum lift coefficient of airplanes.
+Roughness,Airfoil,Airfoils can have surface roughness	 which affects drag and performance.
+Roughness,NACA 0010-35,The NACA 0010-35 has a standard surface roughness of 6 x 10^-6
+Roughness,Drag characteristics,Wind-tunnel tests showed that increased roughness significantly affects the drag characteristics of airfoils
+Roughness,Drag,Roughness on the surface of an airfoil increases drag	 especially at high angles of attack.
+Roughness,Aerodynamic characteristics,Surface roughness can significantly alter the aerodynamic properties of an airfoil.
+Roughness,Drag coefficient (Cd),Roughness on the airfoil's surface increases drag	 affecting its aerodynamic performance.
+IP method,CPU time,The IP method significantly reduces CPU time	 making it four orders of magnitude smaller than DSMC
+Euler Equations,Airfoil,Airfoil analysis often involves the use of Euler equations for unsteady aerodynamic analysis
+drag divergence Mach number,thickness ratio,Increasing thickness-chord ratio decreases the drag divergence Mach number at zero lift coefficient	 but this trend reverses as maximum lift is approached.
+drag divergence Mach number,leading-edge radius,Changes in leading-edge radius affect the drag divergence Mach number.
+drag divergence Mach number,location of maximum camber,Changes in location of maximum camber influence the drag divergence Mach number.
+drag divergence Mach number,Airfoil,desired with its line located at as large a radius station as possible
+drag divergence Mach number,lift coefficient,The drag divergence Mach number varies at different lift coefficients due to changes in airfoil geometry.
+control points,camber line,The camber line is defined by a NURBS curve using three control points.
+control points,camber,The movement of control points can create the effect of camber in the wing-section.
+control points,NURBS,NURBS uses control points (Di) to define its curve	 with weights wi assigned to each point.
+Camber Location,Performance,The location of the camber line relative to the chord line can significantly affect an airfoil's performance.
+Camber Location,Airfoil Performance,The location of camber along the chord line affects the airfoil's performance.
+Camber Location,Airfoil,Airfoil's camber location affects its lift and drag performance. Camber located more aft improves lift but increases drag.
+Camber Location,Stall,The camber location affects the stall characteristics of an airfoil. A forward camber location tends to delay stall.
+Camber Location,NACA 0018,The NACA 0018 has a camber location of 3.56 percent c (L.E. radius)
+Camber Location,Drag,Moving camber location aft improves lift but increases drag due to more flow separation over the airfoil.
+Camber Location,Moment Coefficient,The location of camber along the chord line influences the moment coefficient of an airfoil	 affecting its pitching moment and stability.
+Camber Location,Pitching Moment,The location of camber along the chord line affects the pitching moment	 which is important for aircraft stability.
+Thickness distribution,NACA 4-digit family,The thickness distribution of the NACA 4-digit family was obtained by uncambering existing airfoils like Gottingen 398 and Clark-Y.
+Thickness distribution,Airfoil,An airfoil's shape is determined by its thickness distribution.
+Thickness distribution,Upper surface,The thickness distribution is composed for the upper side of the airfoil.
+Thickness distribution,Lower surface,The thickness distribution is composed for the lower side of the airfoil.
+Thickness distribution,NACA RM No. L7I22,The NACA RM No. L7I22 has a defined thickness distribution	 denoted by its camber line and thickness parameters.
+Thickness distribution,Airfoil design,Airfoil design involves defining the thickness distribution along the chord line.
+Thickness distribution,Drag,The thickness distribution affects the drag characteristics of an airfoil. Thicker sections lead to higher drag coefficients.
+Thickness distribution,Manufacturability,The manufacturability of an airfoil can be influenced by its thickness distribution	 as thicker sections may require different manufacturing techniques.
+Thickness distribution,Airfoil section,An airfoil section also has a thickness distribution
+individuals,hybrid-GA,The process of choosing individuals for local search in hybrid-GA
+Radial Basis Function Network (RBFN),Airfoil Optimization,In airfoil optimization	 a Radial Basis Function Network is used as a surrogate model in its standard form.
+chord length,NAC A 65	3-218,The '65' in NAC A 65	3-218 denotes the chord length in inches or meters.
+chord length,drag coefficient,The drag coefficient is calculated using chord length and other parameters.
+chord length,c,The chord length of the airfoil is denoted by 'c'.
+chord length,maximum thickness (T),For a NACA four-digit wing section	 the chordwise location for the maximum thickness is positioned about 0.3 of the chord length from the leading edge.
+chord length,models,Models had a chord length of 1 inch
+chord length,protuberance height,On a wing of 70-inch chord	 the height corresponding to one-sixteenth inch is approximately 0.00Ic.
+chord length,Reynolds number,Reynolds number is based on chord length
+chord length,lift coefficient,The lift coefficient (C_L) of an airfoil varies with the angle of attack and chord length.
+thickness distributions,NACA 7-series,Data for available NACA 7-series thickness distributions are presented in the supplementary figures
+thickness distributions,thickness ratio,The thickness ratio may be changed by multiplying the tabulated ordinates by a suitable factor without seriously altering their characteristic features
+thickness distributions,pressure distributions,Thickness distributions can be derived from corresponding pressure distributions using conformal transformations.
+thickness distributions,mean lines,Thickness distributions and mean lines are commonly used together with NACA 6-series airfoils
+maximum thickness (T),design parameters,Maximum thickness is a component of design parameters.
+maximum thickness (T),airfoil design,Maximum thickness is a key design parameter for airfoils
+circulation (Î),Airfoil,The circulation around the airfoil is related to its lift and can be expressed in terms of the lift coefficient.
+circulation (Î),lift coefficient (Cl),The circulation around an airfoil is given by C_l * c / 2	 where c is the chord length.
+grid parameters,grid,A discrete subset of the vector-valued function X(&	qj	c~.	P) is a structured grid for grid parameters
+grid parameters,grid sensitivity,Grid sensitivity also depends on grid parameters such as cell size	 distribution	 etc.
+Trailing edge,Airfoil,Trailing edge experiences trailing edge separation due to changes in suction pressure
+Trailing edge,Leading edge,Airflow over an airfoil starts at the leading edge and ends at the trailing edge	 with pressure differences causing normal and tangential forces along this path.
+Trailing edge,Thickness,The thickness increases near the trailing edge
+effective dihedral,stability derivatives,The effective dihedral derivative	 Cl_p (C_l_p)	 is another key stability derivative affecting the longitudinal stability of an aircraft.
+rolling moment,model,The model rolled to the left instead of to the right due to overpowering rolling moments
+rolling moment,ailerons,Ailerons were unable to counterbalance the adverse rolling moments
+Airfoil Performance,Chord,The length of chord significantly affects airfoil performance.
+Airfoil Performance,Airfoil Thickness,Airfoil thickness influences its lift	 drag	 and stability characteristics.
+Airfoil Performance,Mean Line,The mean line significantly influences an airfoil's performance in terms of lift and drag.
+Airfoil Performance,Aerodynamic Characteristics,The aerodynamic characteristics	 such as lift and drag coefficients	 determine the overall performance of an airfoil.
+NACA 65-008,lift coefficient,The lift coefficient of the NACA 65-008 airfoil varies with angle of attack	 with values ranging from about 0.6 to 1.6 as shown in the provided table.
+Critical Mach Number,Airfoil,The maximum critical mach number decreases rapidly as the thickness of an airfoil increases.
+Critical Mach Number,NACA 0006,The variation of critical mach number with low-speed section lift coefficient for NACA 0006 is depicted.
+Critical Mach Number,NACA 0009,The variation of critical mach number with low-speed section lift coefficient for NACA 0009 is depicted.
+Critical Mach Number,NACA 0012,The variation of critical mach number with low-speed section lift coefficient for NACA 0012 is depicted.
+angle of attack (Î±),lift coefficient (Cl),Lift coefficient is directly proportional to angle of attack
+angle of attack (Î±),lateral-force coefficient (Cn),The angle of attack indirectly affects the lateral-force coefficient through its influence on airspeed and dynamic pressure.
+angle of attack (Î±),NACA 0012 airfoil,The NACA 0012 airfoil is designed to operate at specific angles of attack.
+angle of attack (Î±),Airfoil,The angle of attack is the angle between the chord line of an airfoil and the direction of the undisturbed flow.
+angle of attack (Î±),airfoil shape,Airfoil performance	 including lift and drag	 can be influenced by the angle of attack.
+pressure gradient,laminar boundary layer,Laminar boundary layers can only exist for a short distance in regions where the pressure increases in the direction of flow.
+pressure gradient,Airfoil,Pressure gradient along the surface affects the stability of boundary layer on an airfoil
+pressure gradient,drag,The effect of a pressure gradient in the tunnel upon the drag is directly additive and should be applied when measuring drag with a balance.
+potential-flow theory,Airfoil,The potential-flow theory was applied to minimize discrepancies between theoretical and measured results for an airfoil.
+Pitching moment,Airfoil section,The pitching moment of an airfoil section is primarily a function of its camber.
+P/PT,AIRFOILUPPERSURFACE,The ratio of local to stagnation pressure varies along the chord length on the upper surface of the airfoil.
+P/PT,Upper Surface,The upper surface of an airfoil has a pressure ratio (P/PT).
+P/PT,Lower Surface,The lower surface of an airfoil has a pressure ratio (P/PT).
+P/PT,Airfoil,Airfoil has a parameter P/PT representing the ratio of local pressure to freestream dynamic pressure.
+P/PT,X/C,X/C and P/PT are related parameters along the airfoil surface	 with X/C representing the fractional chord and P/PT representing the ratio of local pressure to freestream dynamic pressure at that location.
+P/PT,Cp,Cp and P/PT are related parameters along the airfoil surface	 with Cp representing pressure coefficient and P/PT representing the ratio of local pressure to freestream dynamic pressure at that location.
+aerodynamic characteristics,Reynolds Numbers,Reynolds Numbers affect the aerodynamic characteristics
+aerodynamic characteristics,Reynolds number,The aerodynamic characteristics of NACA 4412 airfoil vary with Reynolds number.
+aerodynamic characteristics,angle of attack,The aerodynamic characteristics of NACA 4412 airfoil also vary with angle of attack.
+parameters,airplane component,An airplane component can be specified by tens of parameters instead of hundreds or thousands.
+parameters,constant values,parameters can be fixed at constant values
+parameters,GA,GA is one of the parameters considered in airfoil design
+M,Upper Surface,The upper surface of an airfoil has a Mach number (M).
+M,Lower Surface,The lower surface of an airfoil has a Mach number (M).
+M,AIRFOIL UPPER SURFACE,The Mach Number (M) is associated with the Airfoil Upper Surface
+M,AIRFOIL LOWER SURFACE,The Mach Number (M) is also associated with the Airfoil Lower Surface
+M,Airfoil,M represents the Mach number in airfoil design	 which is the ratio of the flow velocity to the speed of sound.
+M,X/C,X/C and Mach number (M) are related parameters	 with X/C representing the fractional chord and M representing the flow velocity ratio.
+M,Cp,Mach number M affects pressure distribution represented by Cp on an airfoil. At transonic speeds (around Mach 0.8)	 Cp can vary significantly due to shock waves and compressibility effects.
+M,Re,M represents Mach number and Re stands for Reynolds number	 both are freestream conditions
+Airfoil Drag Coefficient,Reynolds Number,The airfoil drag coefficient decreases with increasing Reynolds number.
+Drag divergence Mach number,Mach number,The drag divergence Mach number can be free of the influences of the interaction between the shock wave and boundary layer when it is slightly higher than the Mach number.
+Drag divergence Mach number,Maximum thickness location,At lift coefficients below 1.3	 a maximum thickness location of about 40 percent chord results in reasonable drag divergence Mach number.
+Drag divergence Mach number,Leading-edge radius,At zero lift coefficient	 increasing leading-edge radius from one-fourth to three times normal increases drag divergence Mach number by about 0.02.
+Drag divergence Mach number,Camber addition,The camber addition caused a decrease in drag divergence Mach number
+Drag divergence Mach number,Airfoil thickness,Decreasing airfoil thickness increases drag divergence Mach number at zero lift	 resulting in decreases in drag divergence Mach number at higher lift coefficients
+Minimum drag coefficient,Airfoil thickness ratio,The minimum drag coefficient varies with airfoil thickness ratio
+Minimum drag coefficient,Thickness ratio,Figure 5 is a plot of minimum drag coefficient against thickness ratio.
+Minimum drag coefficient,Airfoil sections,The investigation also resulted in lower minimum drag coefficients for the airfoil sections.
+Minimum drag coefficient,Airfoil camber,The variation of minimum drag coefficient with airfoil camber is shown in figure 11
+Minimum drag coefficient,Airfoil section,For moderate thickness ratios and current construction methods	 the minimum drag coefficient primarily depends on the surface condition rather than the airfoil section
+Hydrofoil,Lift,The hydrofoil generates lift
+Hydrofoil,Drag,The hydrofoil experiences drag
+Hydrofoil,Aerodynamic characteristics,Old data for a hydrofoil in infinite fluid can predict its aerodynamic characteristics near water surface and rigid boundaries.
+Hydrofoil,Airfoil,An airfoil can be a type of hydrofoil	 designed to operate underwater
+Hydrofoil,Aspect ratio,The hydrofoil's aspect ratio affects its lift-curve slope.
+NACA 7-series airfoils,NACA 6-series airfoils,Similar methods are used to derive the basic thickness forms and corresponding pressure distributions for both series.
+NACA 7-series airfoils,Design lift coefficient,The second number in the designation indicates the extent over the upper surface	 in tenths of the chord from the leading edge	 of the region of favorable pressure gradient at the design lift coefficient.
+NACA 7-series airfoils,Maximum thickness,The last group of three numbers in the designation indicates the maximum thickness of the airfoil	 similar to NACA 6-series airfoils.
+Bezier curve,Airfoil contour,The Bezier curve can be used to directly form or generate the mean camber line of the airfoil contour.
+Bezier curve,Mean camber line,The Bezier curve can be used to describe the mean camber line of an airfoil.
+Bezier curve,Airfoil thickness,The Bezier curve can be used to generate the airfoil thickness distribution on each side of the airfoil.
+Bezier curve,target geometry,The Bezier curve is used to smoothen the target geometry after it's generated through inverse design.
+pitching amplitude,sweep,are configuration parameters whose effects are parametrically determined by unsteady pressure drag and moment
+pitching amplitude,pressure drag,A higher pitching amplitude results in an increased pressure drag on the airfoil.
+NACA 747A315,mean lines,The combination of thickness distribution listed in table I for the NACA 747A315 airfoil changes the pressure distribution
+Simulated Annealing,Local Optima,SA is able to overcome local optima by accepting inferior solutions based on the temperature evolution.
+ANN,RSM,Comparison between ANN and polynomial-based RSM
+ANN,neurons,An Artificial Neural Network (ANN) consists of interconnected neurons.
+ANN,RBFN,ANN is a type of RBFN
+ANN,Inverse Design,ANN plays a role as a calculator in inverse airfoil design.
+manufacturability,airfoil thickness,Airfoil thickness directly impacts manufacturability; thicker airfoils may be easier to manufacture but can increase weight and drag.
+manufacturability,camber location,Camber location affects manufacturability
+manufacturability,thickness,The manufacturability of an airfoil section is influenced by its thickness	 with thicker sections being more challenging to manufacture.
+manufacturability,airfoil shape,The manufacturability of an airfoil is influenced by its shape	 which is defined by parameters such as camber and thickness.
+manufacturability,Airfoil,The design and shape of an airfoil impact its manufacturability.
+manufacturability,thickness ratio,The thickness ratio of an airfoil affects its ease of manufacture
+manufacturability,maximum thickness,Manufacturability considerations may limit the maximum thickness of an airfoil	 as very thick airfoils are difficult to construct.
+manufacturability,airfoil thickness ratio,Airfoil thickness ratio influences manufacturability. Thicker airfoils are generally easier to manufacture but may have higher drag.
+manufacturability,airfoil design,Manufacturability is considered in airfoil design	 as seen in NACA 634-021 and others.
+Dynamic stall,Airfoil,Airfoil exhibits dynamic stall phenomenon
+Dynamic stall,leading-edge separation bubble,Dynamic stall is not directly affected by the leading-edge separation bubble on the NACA 0012 airfoil.
+Dynamic stall,vortex shedding,Dynamic stall involves the shedding of a vortex	 which induces a strong surge in lift.
+protuberance height,drag,In the second region (approximately 0.00Ic to 0.002c)	 the drag increases rapidly with protuberance height.
+protuberance height,maximum lift,A small increase in protuberance height (0.0004c) reduces the maximum lift by approximately 15 percent
+Target geometry,Geometry,Meaningful changes of geometry and pressure distribution toward their targets were recognized by the deep learning models.
+Target geometry,Deep learning model,Deep learning model estimates the target geometry from target pressure distribution by learning the mapping between them.
+Pressure Distribution,Moment Coefficient,Moment coefficient can be influenced by pressure distribution on the airfoil.
+Pressure Distribution,Airfoil Shape,The pressure distribution about any airfoil in potential flow may be calculated accurately by a generalization of the methods mentioned earlier.
+Pressure Distribution,Reynolds Number (Re),The Reynolds number influences the pressure distribution on an airfoil.
+Pressure Distribution,Airfoil Design,The quality of predictions in airfoil design is illustrated by comparing the target and computed pressure distributions along the airfoil contour.
+Pressure Distribution,Midspan Section,Pressure Distribution occurs over Midspan Section
+Pressure Distribution,Airfoil,Airfoil has pressure distribution on its surface.
+Pressure Distribution,Angle of Attack,The pressure distribution varies with the angle of attack
+Optimization,Surrogate model,Surrogate models like ANNs can speed up the optimization process by predicting function values instead of actual evaluations
+Optimization,Design Parameters,The optimization process involves adjusting design parameters like camber	 thickness	 and location
+Optimization,Design,Design processes often involve optimization algorithms to improve airfoil performance.
+Protuberance,Airfoil,The presence of a protuberance increases the frontal area of an airfoil	 affecting its drag coefficient.
+Protuberance,Height,The height of the protuberance influences its effect on the drag of an airfoil	 with taller protuberances causing more drag.
+Protuberance,Drag,A protuberance with height exceeding 0.005c can significantly increase drag if located on the forward portion of the upper surface of an airfoil.
+Lift distribution,Design lift coefficient,Maintaining falling pressures on both surfaces of an airfoil near the design lift coefficient ensures optimal lift distribution.
+Lift distribution,Tunnel walls,The distortion of lift distribution is induced by the curvature of the flow caused by the tunnel walls.
+Thickness,Airfoil,An airfoil has thickness	 which is the maximum distance between its upper and lower surfaces.
+Thickness,Section,A section has thickness	 which affects manufacturability and performance
+Thickness,Drag,The thickness of an airfoil affects its drag coefficient	 with increased thickness generally leading to higher drag.
+Thickness,Maximum thickness,Thickness varies along the chord line	 with maximum thickness being the largest distance between upper and lower surfaces.
+Thickness,Manufacturability,A thicker airfoil may be harder to manufacture due to complex curvature.
+Thickness,Chord Length,Thickness is measured relative to the Chord Length of the Airfoil.
+Thickness,Maximum Thickness,The thickness of an airfoil is typically measured at its maximum point.
+Thickness,Drag coefficient (Cd),Increasing the thickness of an airfoil can reduce its drag coefficient (Cd)	 improving its aerodynamic efficiency	 but at the cost of reduced lift coefficient (Cl).
+Thickness,Airfoil geometry,Airfoil thickness is a crucial parameter in airfoil design and manufacture.
+Thickness,Airfoil Section,The thickness of a section is crucial for manufacturability and performance.
+Thickness,Camber shape,Thickness and camber shape are related in airfoil design.
+Thickness,NACA 4415,The NACA 4415 airfoil has a thickness distribution that varies along the chord	 with a maximum thickness of around 0.137 at about 30% chord.
+Thickness,Maximum thickness location,The maximum thickness of an airfoil is located at a specific position along the chord line.
+Thickness,NACA Airfoil,The thickness parameter varies among NACA airfoils	 affecting their aerodynamic characteristics.
+Thickness,Airfoil performance,Airfoil thickness also impacts its performance	 with thinner sections generally offering better efficiency.
+Thickness,Low drag,Airfoil thickness affects low drag performance	 with thicker sections generally resulting in higher drag.
+Thickness,Lift,Increasing thickness results in a rapid decrease in lift coefficient.
+Thickness,NACA 0010-35,The NACA 0010-35 has a specific thickness distribution
+Thickness,NACA 65-009,The thickness of NACA 65-009 can be increased up to 9 percent without exceeding the trailing-edge angle limit of 15 degrees
+Thickness,Root section,Thick root sections are required for wings with large spar depths.
+Thickness,NACA 23015.6,NACA 23015.6 has a thickness ratio of 15.8%
+Thickness,NACA 63	4-020,NACA 63	4-020 has a maximum thickness of 20 percent chord
+Thickness,Mean Line,Mean line also affects thickness distribution along chord length
+Thickness,Airfoil design,The thickness of the airfoil can affect its manufacturability and performance. A thicker airfoil may have better stall properties but could be more difficult to manufacture.
+Thickness,Drag coefficient (C_D),An increase in thickness leads to an increase in drag coefficient	 as more area is exposed perpendicularly to the airflow.
+Thickness,NACA 654-221,The thickness distribution	 another key parameter of NACA 654-221	 determines the airfoil's shape and performance
+Thickness,Critical Mach number,Across various NACA series (14	24	44	230	 and 63)	 the critical Mach number varies with thickness.
+Thickness,Performance,The thickness of an airfoil affects its performance characteristics such as lift and drag.
+Thickness,Chord length,Airfoil thickness varies along the chord length.
+Maximum lift coefficients,NACA 6-series airfoils,The maximum lift coefficients increase rapidly with increasing thickness over a range of thickness ratio	 beginning at around 6 percent depending on the camber.
+Maximum lift coefficients,NACA 66(215)-216,NACA 66(215)-216 airfoil has a maximum lift coefficient of around 1.4.
+weathercock stability,airplane,Proportioning an airplane to obtain desired weathercock stability is difficult due to many factors affecting this stability
+weathercock stability,directional stability,Directional stability is often referred to as weathercock stability due to its effect on an aircraft's ability to align itself into wind when in a turn.
+Airfoil geometry,Additional load distribution,The exact thick-airfoil theory shows that the additional load distribution is not completely independent of the airfoil shape.
+Airfoil geometry,Performance,The geometry of the optimized airfoil is compared to another airfoil (SG6042) to show that it outperforms the latter in terms of lift-to-drag ratio.
+Airfoil geometry,Aerodynamic performance,An airfoil should be fairly good in aerodynamic performance and the range the airfoilsâ geometry covers should be wide enough
+Airfoil geometry,Thickness ratio,Airfoil geometry also includes thickness ratio	 which is the maximum thickness of the airfoil divided by the chord length.
+wing design,angle of zero lift,The angle of zero lift is an important characteristic to consider in wing design.
+wing design,lift-curve slope,The lift-curve slope is another important characteristic to consider in wing design.
+wing design,sweep,Wings with large amounts of sweep require special consideration in their design.
+Performance,Airfoil,An airfoil's design and parameters significantly affect its performance	 including lift	 drag	 and stability.
+Performance,Lift,Airfoil performance is largely influenced by its ability to generate lift
+Performance,Drag,Airfoil performance also depends on drag	 with lower drag being more desirable
+Performance,Airfoil camber,Affects the performance of an airfoil when compared to an existing design with similar constraints
+Performance,BezierGA,BezierGA was generally more effective than the ProfoilGA cases fixed-3 and seq-3 in terms of minimizing drag.
+Performance,Camber location,The location of camber affects the overall performance of an airfoil.
+section angle of attack,NACA TN 2998,NACA TN 2998 provides section angle of attack	 deg
+section angle of attack,angle of zero lift,Angle of zero lift is when there's no change in section angle of attack
+section angle of attack,airfoil section,An airfoil section has a section angle of attack	 denoted as Î±.
+Separation Bubble,Airfoil,The movement of separation bubbles along the airfoil is influenced by pressure changes.
+Separation Bubble,Laminar Boundary Layer,A laminar boundary layer may separate and form a separation bubble before transitioning to turbulent flow.
+Camber location,Airfoil,The location of camber influences the airfoil's performance
+Camber location,Stall,The position of camber along the chord greatly influences stall behavior and can affect the airfoil's stall characteristics.
+Camber location,Airfoil optimization problem,Problem involves finding optimal camber location
+Camber location,Airfoil design,The location of the camber line affects the aerodynamic characteristics of the airfoil. A forward camber line may result in better low-speed performance.
+Camber location,Airfoil characteristics,The location of camber along the chord affects the airfoil's pressure distribution and lift coefficient.
+Camber location,Airfoil performance,The location of the camber line affects the performance of the airfoil in terms of lift and drag.
+Camber location,Moment coefficient,Moving camber towards the trailing edge increases moment coefficient	 affecting stability.
+Camber location,Mean line,The camber location on an airfoil can be defined based on the mean line.
+airfoil stability margin,sweep,While sweep tends to favorably alter the moment response near peak incidence	 it may reduce the overall stability margin of the airfoil due to changes in unsteady moment response.
+airfoil stability margin,sweep angle,Sweeping reduces nose down impulsive moment due to dynamic stall but intensifies relative importance of central portion of clockwise-traversed subloop
+camber location,camber,Camber can be placed at different locations along the chord	 affecting lift distribution and performance.
+camber location,NACA TN 3797,The camber line for NACA TN 3797 reaches its maximum value at x/c = 0.5
+camber location,maximum lift coefficients,Moving the position of maximum camber to 40 and 50 percent chord reduces maximum lift coefficients.
+camber location,lift coefficient,The NACA four-digit airfoil system classifies airfoils based on their camber location	 which affects the lift coefficient they generate.
+camber location,lift,Moving the camber location towards the leading edge increases lift
+camber location,upper surface,Camber location is often referenced in relation to the upper surface of the airfoil.
+camber location,Airfoil,The camber of an airfoil is located at a specific position relative to the chord line.
+Euler equations,pressure distribution,An inviscid flow solver solves the Euler equations to calculate the pressure distribution at each geometry correction step.
+Euler equations,Navier-Stokes equations,The solution of Euler equations led to the focus on Navier-Stokes equations
+NACA 2412 airfoil,Upper surface,The upper surface of NACA 2412 airfoil has a pressure coefficient S
+NACA 2412 airfoil,Lower surface,The lower surface of NACA 2412 airfoil has a pressure coefficient S
+Chord Length,Maximum Thickness Location,For a NACA four-digit wing section	 the maximum thickness is positioned about 0.3 of the chord length from the leading edge.
+Chord Length,Airfoil Thickness,The airfoil thickness is expressed as a percentage of the chord length.
+Chord Length,Airfoil,An airfoil has a chord length	 which is the distance between the leading edge and trailing edge.
+Chord Length,Airfoil Section,Airfoil section has a chord length (e.g.	 24 inches)
+Chord Length,Aerodynamic Characteristics,The chord length of an airfoil affects its aerodynamic characteristics	 such as lift and drag coefficients.
+CFD,Airfoil,CFD is one of the numerical methods of choice in the simulation and design of many aerospace components	 including airfoils.
+CFD,wind tunnel,CFD has been used extensively to investigate transonic wall interference in wind tunnels.
+CFD,High-lift analysis tools,To be effective	 these tools need to be functional in all areas of design including CFD.
+Angle of Attack (AoA),Lift,The angle of attack affects the lift generated by an airfoil. As AoA increases	 lift also increases until stall occurs.
+Angle of Attack (AoA),Airfoil,Airfoil has an Angle of Attack	 which affects Pressure Distribution and causes some lift in potential flow
+Angle of Attack (AoA),Drag,Higher AoA increases drag due to induced drag and viscous friction
+Angle of Attack (AoA),Airfoil Section,The angle of attack for an infinite aspect ratio airfoil is a significant parameter.
+Angle of Attack (AoA),Pitching-Moment Coefficient,The pitching-moment coefficient varies with angle of attack	 typically increasing linearly up to the stall angle.
+Trailing Edge,Airfoil,The trailing edge of an airfoil causes large drag increases due to separation from the surface.
+Trailing Edge,Reynolds Stress,Reynolds stress components are more pronounced close to the trailing edge
+Pitching-Moment Coefficient,Airfoil,The pitching-moment coefficient is a measure of the moment generated by the aerodynamic forces acting on the airfoil about its center of pressure.
+type of camber,ailerons,The use of a type of camber that imposes heavy loads on the ailerons complicates the design of the lateral-control system and increases its weight. Conversely	 using a type of camber that carries the lift farther forward relieves the ailerons.
+NACA 64-010,NACA 0010-34,The lift coefficient of NACA 0010-34 is about 35 percent lower than that of NACA 64-010 in smooth condition
+airfoil shapes,design variables,The method uses 21 design variables representing the control points of a B-spline to optimize airfoil shapes
+angle of incidence,Airfoil,The angle of incidence is a parameter related to the airfoil
+angle of incidence,flow separation,As the angle of incidence increases	 flow separation events are postponed to successively higher angles.
+experimental results,maximum lift coefficient,In instances where the maximum lift coefficient could be determined	 analytical results were carried to the known maximum lift coefficient.
+surface roughness,laminar flow,Surface roughness affects laminar flow	 especially at high Reynolds numbers
+surface roughness,lateral stability and control,Effect of surface roughness on lateral stability and control
+pitching moment,Airfoil,The pitching moment follows the trend established by the normal force with regard to stall delay and cyclic extremes in airfoils.
+pitching moment,end plate,...and higher negative pitching moment.
+pitching moment,maximum lift,Changes that produce higher values of maximum lift usually incur higher penalties in terms of pitching moment.
+Airfoil design,NACA,NACA is a methodology used in airfoil design.
+Airfoil design,Manufacturability,Airfoil design considerations include manufacturability
+Airfoil design,NACA four-digit wing-sections,NACA four-digit wing-sections are a type of airfoil design.
+Airfoil design,Optimizer,The optimizer improves airfoil design
+Airfoil design,Numerical optimization methods,Airfoil design often uses numerical optimization methods
+Airfoil design,Bezier curves,Bezier curves are also commonly employed in the design of airfoils.
+Airfoil design,NACA RM No. L7I22,The NACA RM No. L7I22 is a specific example of an airfoil design.
+Airfoil design,Washout,Airfoil design involves geometric washout	 which is the angle between the root and tip chords in terms of positive degrees for washout and negative degrees for anhedral.
+Airfoil design,NACA 23015.6,NACA 23015.6 is a design for an airfoil
+Extensive laminar flow,Airfoil sections,Airfoil sections with extensive laminar flow can result in substantial reductions in drag at high speeds and cruising lift coefficients.
+NACA TN 2998,section lift coefficient,NACA TN 2998 provides section lift coefficient
+NACA TN 2998,Reynolds number,NACA TN 2998 relates to Reynolds number
+NACA TN 2998,Lift,The document NACA TN 2998 discusses the effects of camber on lift and its variation with Mach number
+NACA TN 2998,Drag,The document NACA TN 2998 discusses the effects of camber on drag and its divergence Mach numbers
+NACA TN 2998,Airfoil,NACA TN 2998 is a specific type of airfoil
+NACA TN 2998,Airfoil section,NACA TN 2998 is a type of airfoil section.
+Neural Network Optimization Procedure,CPU time,The major contributor to CPU time in this procedure is training neural networks to learn and predict airfoil aerodynamics.
+physical parameterization,airplane component,An airplane component can be specified by tens of physical parameters instead of hundreds or thousands	 which lacks generality needed for high-level design and optimization analysis.
+Upper Surface,Lower Surface,Upper surface stations and ordinates correspond to the lower surface
+Upper Surface,Airfoil,An airfoil has an upper surface.
+Upper Surface,X/C,The upper surface has a chord distribution (X/C).
+Upper Surface,Cp,The upper surface has a pressure coefficient (Cp).
+Upper Surface,x/c,The upper surface of an airfoil is defined at various x/c coordinates
+Upper Surface,NACA 64-006,The upper surface of an airfoil is defined using the NACA 64-006 formula.
+Upper Surface,NACA 65-012,NACA 65-012 has an upper surface with thickness distribution
+neural network,optimizer,The trained neural networks are integrated with an optimizer to capture and search the high-lift design space.
+design parameters,maximum ordinate of mean line (M),Maximum ordinate of mean line is part of the design parameters.
+design parameters,chordwise position of maximum ordinate (C%),Chordwise position of maximum ordinate is included in the design parameters.
+design parameters,computational cost,High values of design parameters increase computational cost.
+design parameters,Airfoil,Design parameters determine the shape of an airfoil
+design parameters,grid sensitivity,Grid sensitivity is dependent on design parameters like camber	 thickness	 etc.
+NACA 4412 airfoil,Aerodynamic characteristics,The NACA 4412 airfoil has specific aerodynamic characteristics	 including lift and drag coefficients.
+NACA 4412 airfoil,angles of attack,Coefficient and drag polar vary with angles of attack
+mean line,thickness distribution,A mean line and a thickness distribution define a NACA four-digit wing section.
+mean line,NACA 4-digit series,Mean lines for the NACA 4-digit series are provided in figures
+mean line,lift coefficient,The lift coefficient above the design lift coefficient for the mean line increases with increasing airfoil thickness.
+mean line,airfoil performance,The uniform-load mean line is favorable for obtaining low drag coefficients at high lift coefficients.
+mean line,camber,Camber is achieved through the mean line of the airfoil.
+mean line,velocity distribution,The velocity increments caused by the mean line combined with the velocity distribution for the basic thickness form explain the increase in lift coefficient above the design lift coefficient
+velocity distribution,angle of attack,An additional component of velocity distribution is associated with the angle of attack
+velocity distribution,airfoil geometry,An airfoil geometry is generated from the velocity distribution
+velocity distribution,PROFOIL,PROFOIL determines the airfoil shape from a prescribed velocity distribution
+NACA 0012,symmetrical airfoil,first test case considered is the NACA 0012 symmetrical airfoil
+NACA 0012,Airfoil,NACA 0012 is a type of airfoil
+NACA 0012,Protuberances,Protuberances are placed on the NACA 0012 airfoil.
+NACA 0012,Airfoil coordinates,Airfoil coordinates of NACA 0012 are presented in Table I.
+NACA 0012,Split flap,NACA 0012 has a split flap which can be deflected
+NACA 0012,Lift coefficient (CL),NACA 0012 airfoil has a lift coefficient (CL) that varies with angle of attack
+NACA 0012,RAE 2822,These are specific types of airfoils used in design cases.
+NACA 0012,NACA 4412,Both are airfoil profiles mentioned in the context	 with NACA 4412 being re-designed
+NACA 0012,Airfoil shape,The NACA 0012 is a specific airfoil shape
+NACA 0012,CST,NACA 0012 airfoil can be accurately described using CST with only two design variables
+NACA 0012,Critical Mach number,Similar to other NACA airfoils	 the critical Mach number varies with the low-speed section lift coefficient for NACA 0012.
+NACA 0012,Airfoil Section,NACA 0012 is a type of airfoil section.
+Boundary Layer,Airfoil,Flight experiments have been conducted on boundary layers related to airfoils	 as mentioned in the Journal of Aeronautical Sciences.
+hybrid-GA,mhybrid,The parameter mhybrid is created to facilitate the methods of choosing individuals in hybrid-GA
+Normal-force coefficient,Airfoil,Incremental normal-force coefficients are plotted for the airfoil
+Normal-force coefficient,Load distribution,Integration of this load distribution along the chord results in a normal-force coefficient...
+hydrofoil,lift characteristics,The change in flow causes the lift characteristics to be different below and above a limiting speed.
+hydrofoil,lift,The lift characteristics of hydrofoils are discussed.
+hydrofoil,drag,The drag characteristics of hydrofoils are analyzed.
+hydrofoil,vortex,A horseshoe vortex arrangement satisfactorily approximates the tank boundary condition for hydrofoils.
+Angle of Attack,Airfoil,An airfoil has an angle of attack	 which is the angle between its chord line and the direction of airflow.
+Angle of Attack,Chord,The chord length influences the effective angle of attack for an airfoil.
+Angle of Attack,Lift,The angle of attack affects the lift generated by an airfoil.
+Angle of Attack,CL,The coefficient of lift (CL) varies with the angle of attack.
+Angle of Attack,Force Measurements,The force measurements were made at constant speed	 angle of attack
+Angle of Attack,Design Variables,The design variables include angle of attack
+Angle of Attack,Lift Coefficient,The angle of attack affects the lift coefficient	 which in turn affects the lift generated by an airfoil.
+Angle of Attack,Laminar Boundary Layer Separation,An increase in Angle of Attack can cause laminar boundary layer separation near the nose of an airfoil.
+CST,precision,CST has high precision (below 0.0004) for simple airfoils like NACA 0012 when matching order is just 1
+end plate,lift,The addition of end plates to the basic airfoil yields even higher values of lift.
+end plate,drag,However	 this addition comes at the expense of higher drag.
+Mach number (M),Angle of attack (Î±),Changes in Mach number and angle of attack affect the airfoil's pressure coefficient.
+Mach number (M),Airfoil section,An airfoil section has an associated Mach number	 in this case	 the Mach number ranges from 0.775 to 0.90.
+Mach number (M),Airfoil,The performance of an airfoil varies with the Mach number (M)	 which is the ratio of its velocity to the speed of sound.
+Mach number (M),Angle of zero lift,The angle changes from a negative low-speed value to slightly positive as Mach number increases
+NACA 0018,Airfoil,NACA 0018 is a type of airfoil
+NACA 0018,Basic Thickness Form,The NACA 0018 has a Basic Thickness Form
+NACA 0018,Manufacturability,The manufacturability of an airfoil like NACA 0018 can be inferred from its thickness and camber
+smooth airfoil,lift coefficient (C_L),The lift was measured for each smooth airfoil section.
+Measurement,Lift,Measurements of lift and drag were made by means of electrical strain gages.
+Measurement,Drag,Measurements of lift and drag were made by means of electrical strain gages.
+attachment line transition,sweep angle,Sweep angle affects attachment line transition on swept wings.
+attachment line transition,Reynolds number,Reynolds number affects attachment line transition on swept wings.
+attachment line transition,airfoil design,Attachment line transition is highly important and needs special attention in the design of laminar airfoils for swept wings.
+attachment line transition,Reynolds numbers,forced by large Reynolds numbers
+Grid sensitivity,Design parameters,Obtaining the sensitivity of grid with respect to design parameters is one of the basic components in obtaining aerodynamic sensitivity.
+Grid sensitivity,NACA 0012 airfoil,The first test case considered for grid sensitivity is the NACA 0012 symmetrical airfoil.
+Drag coefficient (Cd),Airfoil,An airfoil has a drag coefficient which represents its resistance to motion.
+Drag coefficient (Cd),Reynolds number (Re),Airfoil drag varies with Reynolds number
+Drag coefficient (Cd),Airfoil section characteristics,Airfoil section characteristics include drag coefficient which also varies with changes in Reynolds Number
+Drag coefficient (Cd),Airfoil thickness,Thicker airfoils generally have higher drag coefficients due to increased skin friction and pressure drag.
+Angle of zero lift alo,Reynolds Number R,The cambered airfoils show a small decrease in the absolute value of the angle with increasing R above the value at which the variations are abnormal.
+ProfoilGA,airfoil performance,It can greatly influence and control
+ProfoilGA,design variables,The design variables used in its optimization process can be assigned for iteration by Newton scheme or GA
+ProfoilGA,XFOIL,XFOIL is the 'bottleneck' of the ProfoilGA process
+ProfoilGA,Genetic Algorithm (GA),ProfoilGA is an enhancement of GA
+ProfoilGA,Design variables,Only five design variables were necessary to achieve solutions using ProfoilGA
+ProfoilGA,BezierGA,Both ProfoilGA and BezierGA have potential to improve upon existing airfoils
+ProfoilGA,Airfoil,ProfoilGA produces airfoils
+ProfoilGA,mhybrid,optimal hybrid operators for ProfoilGA are mhybrid = 2
+ProfoilGA,Airfoil optimization,ProfoilGA was tuned to find an airfoil that outperforms current state-of-the-art designs.
+ProfoilGA,(L/D) ratio,ProfoilGA-generated airfoil has an L/D that is about 1% greater than that of the SG6042
+ProfoilGA,Drag reduction,ProfoilGA was used to find an airfoil with a 14% reduction in drag from the comparison E168 airfoil at Cl = 0.92 and Re = 300	000
+Protuberances,Transition,Small protuberances extending above the general surface level are more likely to cause transition than small depressions.
+Protuberances,NACA 6-series sections,Wind-tunnel experience shows that small protuberances extending above the surface level can cause transition in NACA 6-series airfoils.
+Load distribution,Mean line,The load distribution on an airfoil is influenced by its mean line
+NACA 4415,Airfoil,The airfoil in this context is the NACA 4415.
+NACA 4415,Angle of attack,The NACA 4415 airfoil has an angle of attack	 which ranges from -19 degrees to 80 degrees.
+NACA 4415,Lift coefficient (CL),The NACA 4415 airfoil has a lift coefficient (CL) that varies with angle of attack	 ranging from -0.19 to 0.86.
+NACA 4415,NACA 4409,Both are part of NACA's 4-digit series and have similar performance characteristics
+location of maximum camber,stall,The location of maximum camber affects the type of stall: a sudden drop in lift occurs if it's too close to the leading edge	 while a more gradual stall is obtained when it's further back.
+location of maximum camber,leading edge,The second integer indicates the distance from the leading edge to the location of the maximum camber in tenths of the chord.
+location of maximum camber,camber,Camber has a specific location where it is maximum
+Computational fluid dynamics (CFD),Airfoil,The investigation uses CFD to evaluate pressure distribution on the airfoil.
+aerodynamic forces,neural networks,Neural networks can be successfully trained to predict aerodynamic forces with sufficient accuracy for design and modeling.
+aerodynamic forces,airfoil design,Aerodynamic forces are outputs of the airfoil design process.
+NACA 652-215,Airfoil,NACA 652-215 is a specific type of airfoil	 designed with an camber (a) of 0.5
+NACA 652-215,moment coefficient,For NACA 652-215	 the theoretical moment coefficient about the quarter-chord point can be calculated using the design lift coefficient
+NACA Airfoils,Aerodynamic Characteristics,Recent information on aerodynamic characteristics of NACA airfoils is presented.
+NACA Airfoils,Airfoil Thickness,The last two integers in the NACA five-digit series indicate the airfoil thickness in percent of the chord.
+neural networks,inputs,Neural networks require inputs to predict aerodynamic coefficients.
+AIRFOIL UPPER SURFACE,X/C,The Airfoil Upper Surface has coordinates represented by X/C
+AIRFOIL UPPER SURFACE,Cp,The Pressure Coefficient (Cp) is defined on the Airfoil Upper Surface
+Transition location,Drag coefficient,The drag coefficient can be calculated with reasonable accuracy if the transition location is known or assumed.
+Airfoil Design,Multi-objective Optimization,Airfoil design can be optimized using multi-objective methods.
+Airfoil Design,NACA,NACA is an organization known for its work in airfoil design.
+Airfoil Design,Lift,Designing airfoils involves optimizing lift-to-drag ratio for efficient flight
+Airfoil Design,Manufacturability,The manufacturability of an airfoil design can affect its final performance	 as manufacturing tolerances may deviate from the original design.
+models,wind tunnels,In these wind tunnels	 the models completely span the comparatively narrow test sections; thus providing two-dimensional flow.
+models,Airfoil,Seven required for each to determine pressure distribution satisfactorily
+turbulent boundary layer,laminar boundary layer,Turbulent boundary layers are more resistant to separation than laminar ones due to increased momentum interchange.
+turbulent boundary layer,separation,Separation of the turbulent boundary layer over the rear of the section limited the extent of laminar flow.
+Airfoil Section,Thickness Ratio,The thickness ratio is a parameter that characterizes an airfoil section
+Airfoil Section,NACA 0010-35,The NACA 0010-35 is an airfoil section
+Airfoil Section,NACA 0006,NACA 0006 is a type of airfoil section.
+Airfoil Section,NACA 0009,NACA 0009 is a type of airfoil section.
+Airfoil Section,NACA 1412,NACA 1412 is a type of airfoil section with varying thickness.
+Airfoil Section,Cl,Each section of an airfoil has its own lift coefficient (Cl).
+Airfoil Section,Lift Coefficient,The airfoil section has a specific lift coefficient (Cl) at a given angle of attack.
+Aileron,Flap,Ailerons can be designed as flaps to control the airflow over an airfoil
+Aileron,Airfoil,An airfoil contour can be used to design an aileron
+laminar flow,airfoil design,Airfoil design aims to increase the relative extent of laminar flow by having favorable pressure gradients over a greater proportion of the chord.
+laminar flow,Reynolds number (Re),At high Reynolds numbers	 maintaining laminar flow is critical to minimize skin friction drag and optimize performance.
+laminar flow,transition,Type of flow that occurs before transition
+chord,maximum camber,Maximum camber is located at 15 percent of the chord
+chord,NACA ACE Eo. L5C0'5,Transition occurs from 5 to 10 percent of the chord length from the leading edge for NACA ACE Eo. L5C0'5.
+chord,Airfoil,The chord is the straight line joining the leading edge and trailing edge of an airfoil	 influencing its lift and drag characteristics.
+chord,pressure,Pressure varies along the chord length.
+chord,airfoil thickness,The last two integers indicate the airfoil thickness in percent of the chord.
+chord,thickness ratio,Thickness ratio is a fraction of the chord length.
+chord,upper surface,The upper surface of an airfoil is defined along the chord line
+chord,lower surface,The lower surface of an airfoil is also defined along the chord line
+chord,airfoil section,An airfoil section has a chord length of 24 inches.
+NACA 66(215)-216,Airfoil,The Tip section of the Airfoil is NACA 66(215)-216.
+NACA 66(215)-216,airfoil thickness,The NACA 66(215)-216 airfoil has a thickness ratio of approximately 0.100.
+Airfoil Thickness,Drag,Thicker airfoils have higher drag due to increased skin friction and pressure drag.
+Airfoil Thickness,Manufacturability,The thickness of an airfoil can affect its manufacturability	 with thinner profiles being more challenging to construct.
+Airfoil Thickness,Drag Coefficient,Airfoil thickness contributes to drag coefficient
+Airfoil Thickness,Maximum Lift Coefficient,Reducing thickness near leading edge decreases maximum lift coefficient.
+front-loaded pressure distribution,transition location,The front-loaded pressure distribution causes the transition location to move rapidly upstream.
+Airfoil thickness ratio,Critical lift coefficient,The critical lift coefficient decreases with increasing airfoil thickness ratio.
+Airfoil thickness ratio,Manufacturability,A thinner airfoil is generally easier to manufacture but may have lower structural integrity compared to a thicker one.
+Airfoil thickness ratio,Lift curve slope,The lift curve slope decreases with increasing airfoil thickness ratio due to the opposite effect of increasing trailing edge angle.
+Airfoil thickness ratio,NACA 4-digit series,The NACA 4-digit series airfoils have varying airfoil thickness ratios along the chord.
+Airfoil thickness ratio,Airfoil sections,Airfoil thickness ratio is a characteristic of airfoil sections.
+Airfoil thickness ratio,Maximum lift coefficient,The maximum lift coefficient is least sensitive to variations in the position of minimum pressure on the basic thickness form for airfoils with a thickness ratio of 12 percent or less.
+Airfoil thickness ratio,Quarter-chord pitching-moment coefficient,The quarter-chord pitching-moment coefficient becomes less negative with increasing airfoil thickness.
+Transition region,Reynolds number,As the Reynolds number increases	 the transition region moves closer to the separation point.
+Additional load distribution,Angle of attack,Changing the angle of attack results in additional load distribution	 independent of airfoil geometry according to thin-airfoil theory.
+Additional load distribution,Airfoil shape,The additional load distribution is neither completely independent of nor exactly a linear function of the airfoil shape.
+Additional load distribution,Lift coefficient,The additional load distribution is not exactly a linear function of the lift coefficient.
+Chord,Airfoil,An airfoil has a specific chord length.
+Chord,Ordinates,Ordinates are defined as fractions of the chord in airfoil design.
+Chord,NACA Airfoil,The chord length is a key characteristic of NACA airfoils.
+Chord,NACA 0010-35,The NACA 0010-35 has a chord length of 24 inches
+Chord,Flap,A flap has a chord length.
+Chord,Section lift coefficient,The section lift coefficient (c_l) is often provided for different chord lengths.
+Chord,Section angle of attack,The chord length is used to calculate the section angle of attack	 which is an important parameter in airfoil analysis.
+Drag reduction,Airfoil,Carefully designed airfoils can reduce drag by extending laminar flow on wings and empennages.
+Drag reduction,Laminar flow,Smoothing wing surfaces can reduce drag coefficients even without extensive laminar flow
+stability derivatives,directional stability,The directional stability derivative	 Cl_beta (C_n_g)	 is one of two most important stability derivatives related to the lateral-directional stability of an aircraft.
+stability derivatives,Reynolds number,Effects of Reynolds number on stability derivatives
+stability derivatives,Mach number,Effects of Mach number on stability derivatives
+Local search,Design variables,Local search operates directly on the real number values of design variables.
+class function,CST method,The CST method uses a general class function to define the basic profile and shape function.
+Drag coefficients,NACA 4-digit data bank,The NACA 4-digit data bank provides drag coefficients about the airfoil quarter chord or leading edge.
+Drag coefficients,Position of maximum thickness,Varying the position of the maximum thickness caused the drag coefficients to be reduced
+Transition,NACA-0012-64 airfoil,The transition of flow over the NACA-0012-64 airfoil is earlier at every stage in the whole development process
+Transition,Reynolds Number,Transition occurs in the vicinity of small roughness elements or surface irregularities near the model leading to a certain range of Reynolds number
+Transition,Drag coefficient,The drag coefficient departs from regularity at Reynolds Numbers below a certain critical value due to transition effects
+Transition,Leading edge,Transition moves closer to the leading edge
+Transition,Airfoil,Fixing the transition on an airfoil model can affect its lift characteristics	 including decreasing the lift-curve slope and potentially increasing or decreasing the maximum lift coefficient.
+Turbulent flow,Flow separation,Turbulent flow can occur downstream from a separation point on an airfoil.
+Tabs,Chord length,The three tabs have chords of 10	20	 and 30 percent of the flap chord
+Tabs,Flaps,Flaps have tabs.
+Airfoil shape,NACA ACR No. L5C05,NACA ACR No. L5C05 is a specific airfoil shape.
+Airfoil shape,Shock strength,The change in airfoil shape successfully reduced the shock strength
+Airfoil shape,Design variables,Design variables such as camber	 thickness ratio	 and location of maximum camber define the shape of an airfoil.
+Airfoil shape,Manufacturability,A method that differs slightly from the specified shape may affect manufacturability
+Airfoil shape,NACA RM No. L7I22,The NACA RM No. L7I22 represents an airfoil shape
+Airfoil shape,Lift coefficient (C_L),The lift coefficient is a function of the airfoil shape
+Airfoil shape,Drag coefficient (C_D),The drag coefficient is a function of the airfoil shape
+Airfoil shape,Aerodynamic characteristics,The shapes of airfoils have a pronounced effect on their aerodynamic characteristics	 causing them to behave differently in the same flow fields.
+Airfoil shape,Lift characteristics,The shape of an airfoil affects its lift characteristics
+Airfoil shape,Drag,Airfoil shape affects drag coefficient	 with lower values indicating better performance.
+Airfoil shape,Chord length,The chord length varies along the spanwise direction of the airfoil	 starting from 1 and ending at 100.
+Airfoil shape,Y-coordinate,The y-coordinates of the airfoil points are given for different spans (0.89	0.7	 and 1.10) at various chord lengths.
+Airfoil shape,NACA 23012,NACA 23012 is an example of an airfoil shape.
+Airfoil shape,NACA 23015,NACA 23015 is another example of an airfoil shape.
+NACA 23015,Airfoil,The NACA 23015 is another type of airfoil.
+NACA 23015,split flap,The NACA 23015 airfoil has a split flap.
+Airfoil chord,% of the chord,The thickness ratio	 position of maximum thickness	 leading-edge-radius index	 and trailing-edge-angle index are all expressed as percentages of the airfoil chord.
+Airfoil chord,NACA 654-221,NACA 654-221 airfoil stations and ordinates are given in percent of the airfoil chord
+Bezier curves,CST method,The CST method is based on Bezier curves with an added class function.
+Bezier curves,Airfoil contour,The airfoil contour is defined by Bezier curves.
+Bezier curves,design variables,Bezier curves are used to model the airfoil geometry	 with coordinates of Bezier points being design variables
+Stations,Airfoil section,Stations are points along the chord line that help define the shape of an airfoil section.
+Stations,Ordinates,Stations and ordinates define the shape of an airfoil
+NACA 64-006,Basic Thickness Form,NACA 64-006 is a type of basic thickness form used in airfoil design.
+NACA 64-006,Percent Chord,Percent chord is a parameter used in the NACA 64-006 basic thickness form.
+NACA 64-006,Lower Surface,The lower surface of an airfoil is defined using the NACA 64-006 formula.
+Pitching-moment coefficient,Airfoil camber,Increasing the amount of camber causes an almost uniform negative increase in the pitching-moment coefficient.
+Pitching-moment coefficient,Airfoil,The pitching-moment coefficients of the airfoil are affected by the stall of the flap.
+Lift coefficient (CL),Angle of attack,Angle of attack affects lift coefficient
+Lift coefficient (CL),Aspect ratio,The lift coefficient (CL) varies with changes in the aspect ratio of an airfoil.
+Lift coefficient (CL),NACA 23021,The lift coefficient for NACA 23021 with deflected split flap is shown in Figure 20
+Lift coefficient (CL),Airfoil,Airfoil has a lift coefficient (CL) which measures its ability to generate lift.
+Ordinate,Airfoil,The ordinates determine the shape of the airfoil curve.
+Ordinate,Station,Each station has an associated ordinate which defines the airfoil's shape at that station
+Ordinate,Upper surface,Ordinates represent the upper surface's coordinates at each station
+Ordinate,Lower surface,Ordinates also represent the lower surface's coordinates at each station
+NACA four-digit series,Mean line,The lift-curve slopes for NACA four-digit series airfoils with uniform mean-line loading are approximately 0.7 times the value given by thin-airfoil theory.
+NACA four-digit series,airfoil geometry,The numbering system for NACA airfoils is based on the airfoil geometry.
+airfoil performance,camber,High camber in an airfoil can reach high local Reynolds numbers at laminar separation points
+airfoil performance,Reynolds number (Re),Airfoil performance characteristics	 such as lift and drag coefficients	 depend on the Reynolds number.
+airfoil performance,Mach number,The Mach number can influence airfoil performance	 as shown by curves for different Mach numbers (M = 0.29)
+Maximum thickness,Thickness ratio (t/c),The thickness ratio is the maximum thickness of an airfoil divided by its chord length	 which directly affects manufacturability.
+Maximum thickness,Lift coefficient,The values of maximum section lift coefficients (C_L = 0.6) for the modified NACA four-digit-series airfoils as a function of airfoil thickness ratio	 with comparison to those from reference 4 for NACA 64-series low-drag airfoils.
+Maximum thickness,Position of maximum thickness,The position of the maximum thickness is varied between 40 and 70 percent chord
+Maximum thickness,NACA RM No. L7I22,The NACA RM No. L7I22 has a maximum thickness of 0.19 at approximately X/C = 40%.
+Maximum thickness,Manufacturability,The maximum thickness can impact the manufacturability of an airfoil.
+airfoil thickness,NAC A 65	3-218,'218' indicates the airfoil thickness is 21.8% of the chord length.
+airfoil thickness,lift coefficient,Increasing airfoil thickness shifts the center of the low-drag range to higher lift coefficients
+airfoil thickness,lift,The ratio of airfoil thickness to chord length (thickness/chord) usually starts from the leading edge	 but sudden drops in lift occur. A more desirable gradual stall is obtained when the location of maximum camber is further back.
+airfoil thickness,angle of attack,The thickness of airfoil increases with increasing angle of attack.
+airfoil thickness,trailing edge,The boundary-layer thickness increases toward the trailing edge of the airfoil due to the cumulative effect of slowly moving air.
+airfoil thickness,drag coefficient,The minimum drag coefficients of the series of airfoils with NACA MUM thicknesses at 40 percent chord and normal-size leading-edge radii were lower than those of the corresponding NACA 64-series sections.
+airfoil thickness,maximum lift,The transonic lift coefficients of the 10-percent-thick airfoils were about 35 percent lower than those of corresponding NACA 64-series sections.
+turbulence,leading edge,Turbulence shed near the leading edge of a stalled airfoil is nonuniform in its spanwise properties.
+turbulence,stall,A period of turbulence prior to separation is evident over a portion of the surface	 amplifying the hot-wire response to pre-stall turbulence.
+NACA 23012 airfoil,Maximum lift coefficient,The NACA 23012 airfoil achieves a maximum lift coefficient of approximately 2.5 when the flap is deflected.
+NACA 23012 airfoil,Leading-edge radius,For the NACA 23012 airfoil	 an increase in leading-edge radius had little influence on drag divergence
+NACA 23012 airfoil,External-airfoil flap,NACA 23012 airfoil has an external-airfoil flap
+two-level approach,system design (first level),The two-level approach begins with system design at the first level
+two-level approach,detailed component design (second level),The second step of the two-level approach is detailed component design
+Shock strength,Airfoil performance,A weak shock strength contributes to better airfoil performance
+N.A.C.A. 0009 airfoil,Normal-force coefficient (C_N),From the data obtained	 normal-force coefficients were calculated for the airfoil section complete with the flap and the various tabs.
+Parameterization,Airfoil,The airfoil is parameterized by the equation S(x) =xn1 (1 âx)n2Nâi=0Ai!(N âi)!xi(1 âx)Nâ1 + hx
+Lift coefficient,NACA 5-digit series airfoils,The first integer in the numbering system indicates the amount of camber in terms of the relative magnitude of the design lift coefficient	 which is three-halves of the first integer
+Lift coefficient,Pressure distribution,The term 'pressure distribution' is used to signify the distribution of static pressures on the upper and lower surfaces of the airfoil along the chord	 which varies with lift coefficient.
+Lift coefficient,Design lift coefficient,The design lift coefficient is used to calculate the desired value of 6v/V
+Lift coefficient,Thickness form,The value of the lift coefficient affects the thickness form
+Lift coefficient,Airfoil camber,The amount of camber largely determines the values of lift coefficient for which low drag is obtained.
+Lift coefficient,Drag,Relationship shown in Figure 15 for different airfoils at various Reynolds numbers
+Lift coefficient,Airfoil,An airfoil generates lift	 measured by its lift coefficient.
+Lift coefficient,Airfoil performance,The lift coefficient is a key parameter in airfoil performance
+Lift coefficient,Airfoil section,The lift coefficient is an important aerodynamic characteristic of an airfoil section
+Lift coefficient,Neural network,The neural network predicts the lift coefficient	 aiming to improve accuracy by adding INS2D data from optimal cases and retraining
+Lift coefficient,Angle of attack,The angle of attack affects the lift characteristics of an airplane.
+Lift coefficient,Reynolds number,The Reynolds number affects the lift coefficient at a given angle of attack on an airfoil.
+Lift coefficient,Profile drag coefficient,In regards to profile drag coefficients at lift coefficients other than the optimum	 figure 41(a) shows the scale effects...
+Lift coefficient,Airfoil optimization problem,Problem specifies lift coefficient at 0.92
+Lift coefficient,Thickness ratio,The maximum section lift coefficients (C_L = 0.6) for the modified NACA four-digit-series airfoils vary with thickness ratio	 as shown in Figure 20.
+Lift coefficient,Velocity-increment ratios,For positive additional lift coefficients	 velocity-increment ratios are positive on the upper surfaces and negative on the lower surfaces.
+Lift coefficient,NACA 653-418 airfoil,The pressure coefficient C_p at a specific station (x=0.50) on the upper and lower surfaces of this airfoil can be calculated using its lift coefficient.
+Lift coefficient,Critical Mach number,The variation of critical Mach number is dependent on the low-speed section lift coefficient
+Lift coefficient,Aerodynamic characteristics,The lift coefficient is a key aerodynamic characteristic of an airfoil.
+Lift coefficient,Section lift coefficient,The section lift coefficient (cl) is a key parameter in determining the lift coefficient (C_L).
+Airfoil Thickness (T),Maximum thickness location,The dividing line between negative pockets on the forward section and positive pockets on the rear section is located near the maximum thickness location.
+yawing moment,rolling,The yawing moment due to rolling has some effect on lateral stability but its most important effect is usually on lateral maneuverability.
+Thickness ratio,Drag coefficient,As thickness ratio increases	 drag coefficients increase at moderate and high lift coefficients for airplanes with rough surfaces.
+Thickness ratio,Maximum lift coefficient,NACA 230-series airfoils have higher maximum lift coefficients for thickness ratios less than 0.20
+Thickness ratio,Manufacturability,Higher thickness ratios make an airfoil easier to manufacture due to simpler curvature and reduced risk of buckling during construction.
+Thickness ratio,Airfoil section,An airfoil section has a thickness ratio	 denoted by t in NACA four-digit series.
+Thickness ratio,Airfoil,An airfoil has a thickness ratio	 which is the maximum thickness divided by the chord length. Thicker airfoils are easier to manufacture but have higher drag.
+Thickness ratio,Aerodynamic characteristics,Variations of thickness ratio also resulted in changes in aerodynamic characteristics.
+Thickness ratio,Airfoil thickness distribution,The thickness distribution of an airfoil determines its thickness ratio.
+Thickness ratio,Low-drag range,Decreasing thickness ratio causes large decrease in low-drag range.
+Thickness ratio,NAOA 56-series sections,The optimum thickness ratio for the NAOA 56-series sections appears to be 15 percent or greater
+Thickness ratio,Airfoil performance,The thickness ratio affects the airfoil's performance
+Thickness ratio,Critical Mach number,The critical Mach number is a limitation on thickness ratio for high-speed airfoils due to compressibility effects.
+Thickness ratio,Tip section,The thickness ratio of the tip section should be reduced for a margin in critical speed and to avoid loss in maximum lift coefficient.
+laminar boundary layers,Reynolds numbers,Extensive laminar boundary layers were previously difficult to achieve at large Reynolds numbers.
+Lift curve slope,Angle of attack,A lift curve slope is calculated for each domain height h for a set of angles of attack from 0 to 10 degrees
+Lift coefficient (C_L),Angle of attack (Î±),The lift coefficient varies with the angle of attack; increasing Î± generally increases C_L up to a stall point.
+Lift coefficient (C_L),Airfoil,An airfoil generates lift	 with lift coefficient (C_L) being directly proportional to angle of attack up to a certain point.
+Lift coefficient (C_L),NACA RM No. L7I22,The NACA RM No. L7I22 has a lift coefficient that varies with angle of attack	 as shown in the provided data.
+Basic thickness form,Drag coefficient (C_d),The basic thickness form influences the drag coefficient	 with thicker forms resulting in higher C_d
+protuberance,drag,The turbulence produced by a protuberance can delay the separation of flow and reduce drag.
+protuberance,Airfoil,The presence of a protuberance on an airfoil can affect its maximum lift coefficient
+protuberance,section characteristics,differences between section characteristics may be neglected if all sections operate within certain angle of attack range due to protuberance
+protuberance,drag coefficient,The drag coefficient is used to calculate the drag due to a protuberance	 based on its frontal area and the freestream dynamic pressure.
+protuberance,maximum lift,The effect of a protuberance on the maximum lift is unimportant when it's located on the lower surface
+leading-edge region,shed vortex,contributes lift which is transferred to the shed vortex when flow breaks down
+High Subsonic Design,Airfoil Geometry,The High Subsonic Design is a specific instance of Airfoil Geometry.
+High Subsonic Design,Iterations,The High Subsonic Design process involves multiple Iterations.
+CST Method,Airfoil Optimization,Improved by redistributing control points without changing the number of variable parameters
+CST Method,Airfoil,The CST method is a good choice for parameterization and optimization of airfoils.
+CST Method,Design Variables,When the number of design variables grows	 computing cost will increase dramatically in the CST method.
+average values,lift,An increase in reduced frequency generally causes an increase in the average values of lift.
+average values,drag,An increase in reduced frequency generally causes an increase in the average values of drag.
+Navier-Stokes,DSMC,The DSMC and Navier-Stokes gapsizes are close
+Navier-Stokes,Airfoil,Navier-Stokes equations are solved with a slip boundary condition on the airfoil surface
+maximum lift,angle of attack,With leading-edge flap undeflected	 small discontinuities occur in the lift curves at an angle of attack below that for maximum lift.
+maximum lift,flow separation,Flow separation from the leading edge eliminates maximum lift when leading-edge flap deflection is greater than 20Â°. At deflections beyond this	 flow separation farther aft limits maximum lift.
+maximum lift,upper surface,Positioning a protuberance on the upper surface significantly affects its impact on maximum lift
+maximum lift,end plates,end plates reduce maximum lift
+maximum lift,drag,Changes that produce higher values of maximum lift usually incur higher penalties in terms of drag.
+maximum lift,split flap,The split flap increases the maximum lift of an airfoil.
+maximum lift,leading-edge radius,The maximum lift of the airfoils with one-quarter normal-size leading-edge radii more closely approached that of NACA 64-series airfoils than those with roughness had no appreciable effect upon the maximum lift of those airfoils.
+maximum lift,lift coefficient,Increment of maximum lift caused by flap deflection is represented by this relationship
+Aspect ratio,Lift-curve slope,The lift-curve slope varies with the hydrofoil's aspect ratio.
+Aspect ratio,Airfoil,The airfoil has an aspect ratio that can be corrected to infinite.
+Aspect ratio,Angle of attack,The effect of angle of attack on flow changes varies with aspect ratio.
+Aspect ratio,Wing,High wing loadings and low span loadings tend to result in wings of high aspect ratio	 which require large spar depths.
+angle of zero lift,camber,Airfoil parameter that largely determines its angle of zero lift
+pressure fluctuations,incidence angle,Pressure traces at higher incidence angles have more high-frequency content than those at smaller angles.
+pressure fluctuations,Mach number,Absolute levels of pressure fluctuation over the upper forward 27 percent chord were 3 to 4 times those measured at a lower Mach number of 0.30
+Surface waviness,Section,A section has surface waviness	 which affects its laminar flow and drag coefficient
+ordinate,station,Each station on an airfoil has a corresponding ordinate value	 which describes its vertical position relative to the chord line
+ordinate,Station,Stations and ordinates are given for each airfoil section	 representing specific points on the upper and lower surfaces of the airfoil.
+ordinate,upper surface,The upper surface of an airfoil has ordinates at different stations
+ordinate,lower surface,The lower surface of an airfoil has ordinates at different stations
+lift coefficient (C_L),NACA 653-118 airfoil,The NACA 653-118 airfoil has a maximum lift coefficient of around 1.0 when the flap is deflected at certain angles.
+lift coefficient (C_L),Airfoil,Airfoils generate lift	 with the lift coefficient being an important parameter in airfoil design and analysis.
+boundary layer,flow,The boundary layer affects the flow over an airfoil.
+boundary layer,Airfoil,Changes in flow pattern begin in the boundary layer on the upper surface of an airfoil.
+boundary layer,trailing edge,The boundary layer extends from the leading edge to the trailing edge.
+Trailing-edge angle,Flow separation,A large trailing-edge angle causes flow separation at transonic speeds.
+Trailing-edge angle,Drag coefficient,High drag results from flow separation due to a large trailing-edge angle.
+Trailing-edge angle,Aerodynamic center,Increasing trailing-edge angle causes forward movement of the aerodynamic center for NACA 24-	 44-	 and 230-series airfoils
+Trailing-edge angle,Airfoil thickness,For NACA 6-series airfoils	 the effect of increasing trailing-edge angle is apparently less than the effect of increasing thickness
+airplane component,wing,A wing is an example of an airplane component
+Grid,Airfoil,An airfoil is associated with its generated grid.
+Grid,Camber line,An example grid is shown using NURBS representation of camber line
+Design lift coefficient,NACA 653-412,The NACA 653-412 airfoil has a design lift coefficient of 0.4
+Design lift coefficient,Mean line,The lift coefficient at the center of the low-drag range corresponds approximately to the design lift coefficient of the mean line
+Design lift coefficient,Camber addition,The camber addition is proportional to the design lift coefficients
+Design lift coefficient,Maximum lift coefficient,Airfoils having design lift coefficients of 0.2 or less tend to have higher maximum lift coefficients when thickness ratios are increased.
+Design lift coefficient,Critical Mach number,For different thicknesses in the NACA 63-series	 critical Mach number varies with the design lift coefficient (0.2	0.4	 and 0.6).
+Design lift coefficient,Airfoil performance,The design lift coefficient is an important parameter that affects the airfoil's performance.
+Design lift coefficient,Airfoil,Airfoil can be designed for a specific lift coefficient (e.g.	 0.6)
+Pressure coefficient (Cp),Airfoil,The pressure distribution on the airfoil is represented by the pressure coefficient Cp.
+Pressure coefficient (Cp),Airfoil contour,The pressure coefficient distribution is targeted along the airfoil contour in the redesign of NACA 0012 profile
+leading edge,transition,Transition occurs at varying distances from the leading edge	 with some data showing transition as far back as 20 percent of the chord in the slipstream for NACA airfoils.
+leading edge,Airfoil,The leading edge is a boundary of the airfoil
+leading edge,pressure response,A symptomatic pattern was detected in the pressure response near the leading edge.
+leading edge,swept wing,The swept wing's leading edge is parallel to the flow lines.
+leading edge,transition location,Azimuthal locations of transition over the surface near the leading edge are shown in figure 13.
+leading edge,flow separation,The point of flow separation accelerates as it progresses towards the leading edge
+leading edge,pressure,The highest error in pressure is still at the leading edge
+leading edge,leading-edge radius,The center for the leading-edge radius is found by drawing a line through the end of the chord at the leading edge
+pressure,data,Unsteady pressure data was acquired.
+NAC A 65	3-218,pressure distribution,'3-218' indicates that the airfoil has minimum pressure at 0.3 times the chord length behind the leading edge.
+leading-edge radius,Airfoil,Airfoils can have different leading-edge radii
+leading-edge radius,airfoil section,Leading-edge radius is a parameter used in defining an airfoil section
+leading-edge radius,pressure distribution,The size of the leading-edge radius influences the pressure distribution over the forward part of the airfoil
+NACA 0010-34,Airfoil section,NACA 0010-34 is an airfoil section with a modified thickness ratio of 0.8 and camber line location of -0.2.
+Drag coefficient (C_D),Angle of attack (Î±),Increasing angle of attack initially decreases drag coefficient but increases it beyond stall
+Drag coefficient (C_D),Airfoil,An airfoil's drag	 or resistance to motion	 is represented by its drag coefficient	 C_D.
+Transducer,Airfoil,The airfoil has transducers mounted on it for measurement purposes.
+Airfoil Geometry Residuals,Airfoil Geometry,Changes in Airfoil Geometry result in residuals that need to be minimized during design iterations
+Navier-Stokes Equations,NACA 0012 Airfoil,The continuum approach solves the Navier-Stokes equations for the NACA 0012 airfoil.
+Navier-Stokes Equations,Turbulence,When the flow is turbulent	 additional models like Spalart-Allmaras are used to solve these equations.
+Navier-Stokes Equations,Airfoil,Airfoil design and analysis also involves the Navier-Stokes equations	 especially for compressible turbulent flow
+pressure distribution,Airfoil,The pressure distribution over an airfoil affects its performance
+pressure distribution,camber,Camber influences the pressure distribution over upper and lower surfaces of an airfoil
+pressure distribution,angle of attack,A change in the angle of attack affects the pressure distribution around the airfoil
+pressure distribution,Mach number,Changes in Mach number cause changes in the pressure distribution on the airfoil surface.
+pressure distribution,wind tunnel,The wind tunnel was used to measure the pressure distribution on the airfoil
+pressure distribution,airfoil section,The method used calculates the pressure distribution around an airfoil section without any restricting assumptions
+pressure distribution,lift coefficient,When operating at an appreciable lift coefficient	 the thin symmetrical section has a high suction peak near the leading edge	 while the cambered section chosen for comparison has a flat pressure-distribution diagram.
+pressure distribution,crossflow instability,Pressure distribution is one of the main parameters that influence crossflow instability.
+pressure distribution,swept wing,Pressure distributions on swept wings can be used to analyze boundary layer instabilities like Tollmien-Schlichting and crossflow instabilities
+pressure distribution,airfoil geometry,The airfoil geometry is associated with its corresponding pressure distribution.
+pressure distribution,airfoil characteristics,The pressure distribution exerts a strong or predominant influence on the boundary-layer flow and	 hence	 on the airfoil characteristics.
+pressure distribution,critical Mach number,The pressure distribution also exerts a strong influence on the estimation of the critical Mach number if tests are not available.
+pressure distribution,NACA 6-series airfoils,The corresponding pressure distributions for NACA 6-series airfoils are derived using these transformations.
+P/PTM,AIRFOILUPPERSURFPR5,The Pressure Distribution along the Airfoil Upper Surface is given as P/PTM
+P/PTM,x/c,The Pressure Distribution along the Airfoil Upper Surface is given as P/PTM at different x/c values
+P/PTM,Cp,The Pressure Coefficient (Cp) and Pressure Distribution (P/PTM) are related along the Airfoil Upper Surface
+AIRFOILUPPERSURFPR5,x/c,The Airfoil Upper Surface Pressure Coefficient (Cp) is given at different x/c values
+AIRFOILUPPERSURFPR5,Cp,The Airfoil Upper Surface Pressure Coefficient (Cp) varies at different x/c values
+Airfoil Geometry,Grid Sensitivity,Sharp points in the airfoil geometry	 like those at the trailing edge of a flap	 can cause grid sensitivity issues due to flow acceleration and pressure drops.
+Airfoil Geometry,Iterations,Airfoil Geometry is improved through iterative design processes
+Airfoil Geometry,Neural Network,The neural network is used to estimate the airfoil geometry.
+V,free-stream velocity,Represents the velocity of the flow away from the airfoil
+angle of attack,Airfoil,The lift coefficient (Acmcj~) varies linearly with the angle of attack
+angle of attack,lift coefficient,The lift coefficient varies with the angle of attack.
+angle of attack,drag coefficient,The drag coefficient is lower at higher Reynolds numbers for a range of angles of attack.
+angle of attack,lift curve discontinuities,Lower angle of attack corresponds to lift curve discontinuities with deflected plain trailing-edge flap.
+angle of attack,performance,Angle of attack significantly affects the performance of the hydrofoil	 including induced vertical velocity.
+angle of attack,Mach number,The effects of being off-design in the angle of attack or in the Mach number are shown in figures 19(a) and (b)	 respectively.
+angle of attack,data,Data is presented for different angles of attack
+angle of attack,CL,Angle of attack 'a' affects CL through the equation CL = OL cos a + CN sin a
+angle of attack,lift coefficient (C_l),increases with increasing angle of attack up to a certain point
+angle of attack,shock wave,The presence and characteristics of the shock wave also depend on angle of attack
+angle of attack,flow separation,little flow separation occurs at low angles of attack
+angle of attack,lift,The angle of attack influences the lift generated by an airfoil.
+sweep,wing,The data of figure ll show that changing from an unswept to a swept wing causes...
+wind-tunnel investigation,NACA 0006 airfoil,The NACA 0006 airfoil was subjected to a wind-tunnel investigation.
+Three-element airfoil,Slat,A three-element airfoil consists of a slat among other elements.
+Three-element airfoil,Flap,A three-element airfoil consists of a flap among other elements.
+reduced frequency,lift coefficient (CL),Loss of lift occurs progressively later in the cycle as reduced frequency increases
+maximum lift coefficients,symmetrical airfoil,The maximum lift coefficients of the symmetrical airfoil are not directly comparable to those of the cambered airfoils due to erosion from impingement.
+maximum lift coefficients,thickness,Increasing thickness decreases the maximum lift coefficients of an airfoil.
+Leading edge radius,NACA 23021,The leading edge radius is 0.158
+Leading edge radius,Manufacturability,A larger leading edge radius improves manufacturability but may increase weight and complexity
+Speed,Drag,Drag increases gradually as the critical speed is approached from the supercritical range	 contrary to the abrupt increase predicted by theory.
+Speed,Airfoil,Airfoil performance varies with speed	 as shown in the variation of lift coefficient with speed for different water depths and hydrodynamic conditions.
+Speed,Maximum lift coefficient,The average observed maximum value for all speeds greater than 0.5 is approximately 32 cm of head.
+Moment,Normal Force,Both quantities are integrated with the assumption of two-dimensional flow near the midspan region.
+Moment,Airfoil,Airfoils create moments around their chord line.
+aircraft,optimizer,The optimizer allows for efficient searching of the design space to find extrema for aircraft.
+Airfoil thickness,Manufacturability,Thicker airfoils are generally easier to manufacture but may have higher drag.
+Airfoil thickness,% of the chord,The last two integers in NACA's numbering system indicate the airfoil thickness	 expressed as a percentage of the chord.
+Airfoil thickness,Position of minimum pressure,Airfoil thickness affects the position of minimum pressure along the chord.
+Airfoil thickness,Lift-curve slope,The values of lift-curve slope for airfoils with thicknesses in the range from 6 to 10 percent are very close to the value for thin airfoils.
+Airfoil thickness,NACA 6-series airfoils,The chordwise position of the aerodynamic center moves rearward with increase in airfoil thickness for NACA 6-series airfoils.
+Airfoil thickness,Maximum lift coefficient,Increasing airfoil thickness increases the maximum lift coefficient	 but this effect is less pronounced for highly cambered sections.
+Airfoil thickness,NACA 4-digit designation,The last two digits of the NACA 4-digit designation indicate the thickness of the section in percent chord.
+Airfoil thickness,Airfoil performance,Thickness is a variable related to the shape of the airfoil that affects its performance
+Airfoil thickness,NACA 4409,NACA 4409 has an airfoil thickness that changes along its chord length.
+Airfoil thickness,Reynolds Number,The most efficient airfoil thickness varies with the Reynolds Number
+Airfoil thickness,Drag coefficient,Optimized for minimum drag at a specific lift coefficient (0.92) and Reynolds number (300	000)
+Airfoil thickness,Airfoil optimization problem,Problem specifies airfoil thickness at 10%
+Airfoil thickness,Low-drag range,Increasing airfoil thickness reduces the theoretical value of the low-drag range
+Airfoil thickness,Quarter-chord pitching-moment coefficient,Thickness increases the magnitude of quarter-chord pitching-moment coefficient with increasing deflection of split flaps
+Airfoil thickness,Lift-to-drag ratio,The thickness of the airfoil impacts its lift-to-drag ratio	 with thinner profiles generally having better performance.
+Slat,Airfoil,An airfoil consists of a slat	 main element	 and flap.
+Drag,Lift,Lift and drag are both important forces acting on an airfoil	 with lift being vertical and drag horizontal.
+Drag,Airfoil,An airfoil's drag coefficient is influenced by its thickness and surface roughness.
+Drag,Angle of attack (a),As the angle of attack increases beyond the stalling angle	 the drag coefficient also increases significantly.
+Drag,lb,Drag force is measured in pounds-force (lb)
+Drag,Reynolds Number (Re),The drag coefficient of an airfoil varies with the Reynolds number (Re).
+Drag,Manufacturability,Lower drag leads to better fuel efficiency	 but must consider manufacturability constraints
+Drag,Laminar boundary layer,Unusually low drags are associated with the presence of an abnormally extensive laminar boundary layer.
+Drag,Airfoil optimization problem,Problem aims to minimize drag
+Drag,NACA 0010-35,The NACA 0010-35 has specific aerodynamic characteristics	 including drag
+Drag,Thickness Ratio,The drag rises steeply with increasing thickness ratio
+Drag,NACA 6-series,Sections designed for these series aimed to have desirable drag coefficients.
+Drag,NACA 6-series airfoils,NACA 6-series airfoils exhibit high drag at high lift coefficients and low drag at moderate lift coefficients.
+Drag,Airfoil sections,The performance of airfoil sections is also characterized by drag
+Drag,Wing,Irregularities on the wing contribute to its total drag.
+Drag,Reynolds number,Increase in Reynolds number decreases drag coefficient due to transition from laminar to turbulent flow
+Drag,Reynolds Number,The drag experienced by an airfoil can be influenced by the Reynolds number	 which depends on factors like airspeed and size of the airfoil.
+Drag,Airfoil Shape,The shape of an airfoil	 including its thickness distribution	 significantly impacts its drag characteristics.
+Drag,Airfoil performance,The performance of an airfoil also includes its drag coefficient
+angles of attack,flight conditions,The curves were obtained from the test results by selecting	 at each angle of attack	 test results to correspond as well as possible with flight conditions
+angles of attack,lift coefficient,Results at a given Reynolds number revealed a steady variation between lift coefficient and angle of attack within the pre-stall region
+angles of attack,drag coefficients,A gradually increasing curve for the drag coefficients was recorded
+angles of attack,Reynolds number (Re),The Reynolds number is used at different angles of attack.
+(t/C)max,lift-curve slope,The lift-curve slope is computed by a series of IF statements for various (t/C)max values.
+(t/C)max,camber,The camber is governed by limits of Cld and (t/C)max as given in subroutine CLDVSZo
+Mach numbers,maximum lift coefficient,The maximum lift coefficient is anticipated to increase at all Mach numbers.
+Mach numbers,airfoil sections,operate at Mach numbers above drag divergence
+Mach numbers,NACA 6-series airfoils,The NACA 6-series sections retain satisfactory lift characteristics up to higher Mach numbers than the earlier sections.
+Laminar boundary layer,Airfoil,Increasing the relative extent of laminar boundary layer reduces skin friction and profile drag.
+Laminar boundary layer,Turbulent boundary layer,When laminar separation occurs	 the flow returns to the surface as a turbulent boundary layer.
+Leading-edge radius,Pressure distribution,If too small	 a premature peak occurs near leading edge; if too large	 it occurs further downstream. With correct radius	 pressure is nearly flat initially.
+Leading-edge radius,Position of maximum thickness,A change in leading-edge radius affects the position of maximum thickness
+Wind tunnel testing,High-lift design,Traditionally	 high-lift designs have been accomplished by extensive wind tunnel testing.
+Wind tunnel testing,High-lift analysis tools,To be effective	 these tools need to be functional in all areas of design including wind tunnel.
+moment coefficient,Airfoil,Moment coefficient is a property of airfoils	 calculated around specific points like quarter-chord point
+lift coefficient (C_l),Airfoil,The lift coefficient C_l is a measure of the lift generated by an airfoil.
+lift coefficient (C_l),airfoil section,The low-speed section lift coefficient varies with airfoil section thickness and camber.
+lift coefficient (C_l),critical Mach number,Variation of critical Mach number is dependent on the low-speed section lift coefficient.
+Shock,Airfoil performance,The presence of shock does not have any seriously adverse effects on airfoil performance unless it precipitates boundary-layer separation.
+Shock,Symmetrical airfoil section,Shock develops at a lower free-stream speed on the symmetrical section.
+airfoil design,airfoil analysis,Airfoil design involves analyzing airfoil parameters to optimize performance
+airfoil design,inputs,Inputs are required to initiate the airfoil design process.
+airfoil design,lift coefficient,Lift coefficient is a measure of the aerodynamic performance of an airfoil design
+airfoil design,crossflow instability,Crossflow instability is an important phenomenon to consider when designing laminar airfoils for swept wings.
+airfoil design,maximum ordinate of mean line (M),The maximum ordinate of the mean line is another crucial design parameter for airfoils
+airfoil design,chordwise position of maximum ordinate (C%),The chordwise position of maximum ordinate is also an important design parameter in airfoil creation
+free-stream velocity,Reynolds number,Reynolds number is a function of free-stream velocity in airfoil analysis.
+free-stream velocity,Mach number,Mach number relates to free-stream velocity in airfoil design.
+free-stream velocity,pressure coefficient,The pressure coefficient is defined in relation to the free-stream velocity.
+support interference,accuracy,There is no support interference within the accuracy of the results at high values of the Reynolds Number.
+CL,Lift,CL represents the lift coefficient	 which is used to calculate lift
+CL,Angle of attack,The CL varies with angle of attack	 from -1.2 to 2.6
+Aspect Ratio,Lift,A higher aspect ratio in a hydrofoil can increase lift generation.
+Aspect Ratio,Airfoil,An airfoil has an aspect ratio	 which is the ratio of its span to its mean chord length. This affects its lift and induced drag coefficients.
+Aspect Ratio,Airplane,An airplane's effective aspect ratio is not a satisfactory criterion for use in airfoil selection.
+Slotted flaps,NACA 6-series airfoils,Tests indicate that the design parameters necessary to obtain high maximum lifts are similar for NACA 6-series airfoils with slotted flaps.
+Maximum camber location,NACA 4-digit designation,The second number in the NACA 4-digit designation indicates the distance from the leading edge to the location of the maximum camber.
+Maximum camber location,Airfoil performance,A more aft maximum camber location improves airfoil performance
+NACA-0012,symmetrical airfoil,NACA-0012 is a symmetrical airfoil.
+NACA-0012,airfoil geometry,The NACA-0012 is an example of airfoil geometry
+aerodynamic center,Airfoil,The aerodynamic center is a point on an airfoil about which the pitching moment coefficient remains constant with changes in angle of attack.
+aerodynamic center,airfoil sections,The position of the aerodynamic center is determined from the experimental results for each airfoil section
+aerodynamic center,airfoil thickness ratio,The aerodynamic center varies chordwise with changes in airfoil thickness ratio.
+c,camber,The term 'c' is used interchangeably with 'camber'	 referring to the maximum camber of the airfoil.
+Ordinates,Airfoil Chord,Ordinates are measured as a percentage of the airfoil's chord length.
+maximum lift coefficient,thickness ratio,For thickness ratios greater than 15 percent	 the maximum lift coefficients of airfoils cambered for a design lift coefficient of 0.4 equipped with split flaps are greater than those of NACA 44-series airfoils.
+maximum lift coefficient,airfoil section,The maximum lift coefficient is a measure of the highest lift that can be generated by an airfoil section without stalling.
+maximum lift coefficient,camber,For wings with small camber	 the most effective way of increasing the section maximum lift coefficient is to increase the camber.
+maximum lift coefficient,airfoil thickness ratio,increases slightly for airfoils having thickness ratios greater than 18 percent
+maximum lift coefficient,Reynolds Number,The maximum lift coefficient increases with increasing Reynolds Number
+maximum lift coefficient,Reynolds number,The attainment of a high maximum lift coefficient is often more difficult at the tip section than at the root section because of the lower Reynolds number of the tip section.
+maximum lift coefficient,NACA series,consistently higher for NACA 64-series compared to NACA 24-	 44-	 and 230-series of comparable thickness
+maximum lift coefficient,thickness,Maximum lift coefficient decreases with increasing thickness
+dynamic stall,NACA 0012 airfoil,The NACA 0012 airfoil exhibits dynamic stall	 characterized by high forces and vortex shedding.
+critical Mach number,Airfoil,The performance of an airfoil includes its critical Mach number.
+critical Mach number,camber,Higher values of camber reduce the critical Mach number
+critical Mach number,NACA 6-series,NACA 6-series sections provide higher critical Mach numbers at moderately high lift coefficients than earlier types of sections.
+CPU time,DSMC,DSMC requires a much larger amount of CPU time compared to the IP method
+Stall,Airfoil,The Airfoil has Stalling Characteristics	 where the stall progresses from root towards tip for flaps neutral and partial-span flaps deflected.
+Stall,Lift,Stall reduces lift on an airfoil
+Stall,Flap,The stall of the flap generally occurred at a deflection of about 20Â° for low angles of attack and about 50Â° for high angles of attack.
+Stall,Angle of attack,The stall of the flap occurred at different deflections depending on the angle of attack.
+target geometry,inverse design,Inverse design generates the target geometry.
+grid sensitivity,NURBS,The geometric representation of wing-sections using NURBS can be used for grid sensitivity analysis.
+amplification ratio,Reynolds number,With increasing Reynolds number	 the amplification ratio grows until a certain limiting N factor is reached.
+amplification ratio,sweep angle,Increasing sweep angle increases the amplification ratio due to increasing crossflow component.
+Section Lift Coefficient,Maximum Thickness Location,Moving the maximum thickness location closer to the leading edge increases the section lift coefficient.
+Inboard sections,NACA ACR No. L5C05,The NACA ACR No. L5C05 is used for inboard sections of conventional airplanes.
+thickness ratio,Airfoil,The thickness ratio is a parameter that describes the airfoil's thickness
+thickness ratio,Reynolds number (Re),The thickness ratio varies with the Reynolds number.
+thickness ratio,NACA 6-series,For NACA 6-series airfoils	 thickness ratio should be less than 0.12 of the chord.
+chord force,lift,The computation of chord force hysteresis response contributes to lift hysteresis loop.
+Pitching Moment,Pitch Damping,The Pitch Damping term	 which is more frequently reported	 has a different interpretation. It represents the net accumulation of energy from the flow based on the closed-line integral of the pitching moment with respect to alpha.
+Pitching Moment,Airfoil,Airfoils have a pitching moment around their aerodynamic center
+section characteristics,variable-density wind tunnel,More reliable section data is obtained from a variable-density wind tunnel	 with additional corrections applied.
+section characteristics,Airfoil,The section characteristics of the airfoil	 flap	 and tab as functions of flap and tab deflection are plotted as increments.
+High-lift devices,Airfoil performance,High-lift devices can improve the performance of airfoils
+High-lift devices,Airfoil section characteristics,High-lift devices affect airfoil section characteristics.
+High-lift devices,Airfoil,Available data on high-lift devices are presented in the report along with the aerodynamic characteristics of the airfoils.
+FX63-137,Airfoil,The FX63-137 is an example of an airfoil
+computational cost,inverse design,Inverse design algorithms can have high computational costs	 which can be reduced using machine learning techniques as shown in this study.
+drag,Airfoil,Airfoil experiences drag during flight	 negatively affecting performance
+drag,lift,Lift and drag are interrelated airfoil parameters affecting performance
+drag,lift coefficient,Increase in drag causes an increase in lift coefficient.
+drag,airfoil section,The quality of the airfoil section has more effect on drag than the type of section.
+drag,Reynolds numbers,As Reynolds numbers increase	 savings in drag can be obtained with proper construction practices.
+drag,thickness,Increasing the thickness of an airfoil can increase drag due to skin friction and form drag.
+drag,Reynolds number,The Reynolds number affects the drag coefficient of an airfoil.
+drag,camber,Increasing camber increases drag
+drag,leading edge radius,Increasing leading edge radius reduces drag
+ailerons,NACA 6-series airfoils,The NACA 6-series airfoils do not appear to present unusual problems with regard to the application of ailerons.
+Altitude,Temperature,The temperature changes with altitude.
+Altitude,Pressure,The pressure varies based on the altitude.
+GA,Iterations,GAs may require many more iterations than traditional optimization techniques
+Design,Airfoil,Airfoils are designed using various methods.
+Design,Manufacturability,The manufacturability of an airfoil design is an important consideration in the development process
+NACA 654-221,Manufacturability,The design and thickness distribution of NACA 654-221 make it suitable for manufacturing as a wing or control surface
+Low Reynolds number flow,Airfoil,Low Reynolds number flow is relevant in the context of airfoil applications.
+Root section,Airfoil section,A combination like NACA 230-series root section with an NACA 64-series tip section may be desirable.
+Root section,Critical Mach number,It is desirable to select a root section with a sufficiently high critical Mach number to avoid drag increases at high speeds.
+Root section,Airfoil,The thickness ratio of the root sections affects the selection of the tip section.
+Root section,Tip section,Different combinations of NACA series sections (e.g.	 230-series with 44-series	 or 63-series with 65-series) may be desirable for the root and tip.
+Flow separation,Reynolds number,Higher Reynolds numbers delay and prevent total flow separation.
+Flow separation,Airfoil,Airfoils are valid before any significant flow separation.
+Flow separation,Aerodynamic performance,Flow separation can deteriorate the aerodynamic performance of airfoils.
+Flow separation,Reynolds Number,Flow separation occurs as the Reynolds Number is reduced in the case of NACA 0012 airfoil.
+airfoil analysis,XFOIL,The number of calls to XFOIL is representative of the process time for analyzing an airfoil.
+Grid Sensitivity,Design Parameters,The grid sensitivity is computed by perturbing design parameters (e.g. T) one at a time 
+cost function,flow equations,The cost of solving the adjoint equation is comparable to the cost of solving the flow equations	 allowing for efficient calculation of gradients with respect to a large number of parameters.
+targets,system design (first level),System design leads to major decisions about component characteristics and defines targets for them
+targets,pressure distributions,The correlation between 'pressure distributions' and their corresponding 'targets' can be detected by the hybrid inverse design-machine method.
+targets,geometries,'Geometries' were also mentioned in relation to their corresponding 'targets'.
+tapered wing,Airfoil,Airfoils can be applied to tapered wings	 as seen in the references provided.
+tapered wing,stalling,Stalling characteristics are related to the design of tapered wings.
+crossflow instability,sweep angle,The choice of sweep angle depends on the crossflow instability.
+crossflow instability,Reynolds number,Reynolds number is one of the main parameters that influence crossflow instability.
+crossflow instability,transition,Transition on an airfoil can also occur due to crossflow instability.
+NACA Airfoil Series,Mean Line,The mean lines used in the NACA airfoil series produce a uniform chordwise loading from the leading edge
+NACA Airfoil Series,Design Parameters,The NACA airfoil series is defined by a set of design parameters	 such as camber distribution and thickness ratio	 that govern its aerodynamic characteristics.
+Surface roughness,Reynolds number,The effect on surface roughness is similar to increasing Reynolds number	 reducing the low-drag range.
+Surface roughness,Drag increments,Large drag increments result from surface roughness
+Surface roughness,Airfoil,Roughening leading edges of thick airfoils causes large increases in lift coefficient
+NACA 0009,Airfoil,NACA 0009 is also a type of airfoil
+NACA 0009,Critical Mach number,The critical Mach number also varies with the low-speed section lift coefficient for NACA 0009 airfoil.
+spanwise location,Airfoil,An airfoil has multiple spanwise locations.
+grid,grid topology,The orientation of the computational coordinate relative to physical coordinate	 known as grid topology	 is an important aspect of the transformation procedure
+Neural networks,Optimizer,Integrated with optimizer for high-lift rigging optimization
+Neural networks,Computational Fluid Dynamics (CFD),In conjunction with neural networks	 computational fluid dynamics may help reduce the time and resources needed to accurately define the optimal aerodynamics of an aircraft including high-lift.
+airfoil model,test section,The airfoil model is evaluated within the test section.
+airfoil model,wind tunnel,Surveys were made upstream from the model with and without the model in place using a bank of pitot tubes
+Normal Force,Airfoil,Normal Force is a force acting perpendicular to the chord line of an airfoil
+Normal Force,Normal Force Defect,The Normal Force Defect represents the loss in load-carrying ability of the normal force experienced during the pitch-down compared to the pitch-up.
+Normal Force,Pitch Damping,If the normal force and pitching moment trace out clockwise patterns when viewed as a function of alpha	 then the normal-force defect will be positive and the pitch damping will be negative.
+Kelvin-Helmholtz mechanism,NACA-4412,The transition flow via Kelvin-Helmholtz mechanism commences with the fluctuation of streamwise velocity for NACA-4412 airfoils.
+Kelvin-Helmholtz mechanism,NACA-0012-64,The transition flow via Kelvin-Helmholtz mechanism commences with the fluctuation of streamwise velocity for NACA-0012-64 airfoils.
+Camber Line,NACA 65-012,NACA 65-012 has a camber line with x and y coordinates as percentages of chord length
+Camber Line,Airfoil,The camber line of an airfoil is the line that connects the points where the airfoil surface is parallel to the chord line on either side.
+Aerodynamic center,NACA 6-series airfoils,The chordwise position of the aerodynamic center moves rearward with increase in thickness for NACA 6-series airfoils
+Incidence angle,NACA 0012 airfoil,The incidence angle influences whether the NACA 0012 airfoil stalls or not
+Incidence angle,Mach number,Changes in Mach number and incidence angle can affect pressure distributions over an airfoil	 as seen in the plotted traces for Mach number 0.4 and 14 degrees incidence.
+NACA 64-series,Airfoil sections,The NACA 64-series are a type of airfoil sections	 specifically those cambered for a design lift coefficient of 0.4.
+NACA 64-series,NACA 4-digit series,Both NACA 4-digit series and NACA 64-series airfoils are compared in the investigation.
+NACA 64-series,airfoil sections,NACA 64-series refers to a family of airfoil sections
+camber,Airfoil,Airfoil has camber
+camber,drag coefficient,The effects of camber on drag are found in subroutine CDMN
+camber,lift coefficient,Variations in camber edge radius and position of maximum thickness affect the lift coefficient
+camber,NACA TN 3797,The camber line for NACA TN 3797 is shown with a maximum camber of 0.07 at x/c = 0.5
+camber,lift,The camber of an airfoil affects its lift coefficient	 with positive camber generally increasing lift at low angles of attack.
+camber,thickness,Camber and thickness curve ordinates are key parameters in airfoil design.
+camber,NACA airfoil sections,Different NACA airfoil sections have varying cambers.
+camber,airfoil shape,Camber	 the curvature or bend in an airfoil's upper surface	 significantly influences its shape and performance.
+camber,lift coefficient (Cl),Camber affects the lift generated by an airfoil	 with more camber leading to higher Cl at lower angles of attack.
+camber,airfoil section,Airfoil sections can be cambered for a design lift coefficient.
+camber,airfoil sections,Airfoil sections are cambered for a specific design lift coefficient (0.4) with mean line of the type a=0.5.
+camber,value,Camber has a value	 e.g.	 NACA 632-415 with camber of 0.07
+camber,camber line,Camber is defined by its camber line
+Flap Deflection,Design Variables,The design variables include flap deflection
+Flap Deflection,Lift,Maximum lift is predicted to occur near the range where flap deflection occurs
+Sweep,Moment coefficient,Has relatively minor effect on moment coefficient
+Glider Airfoil,Laminar Boundary Layer,The efficiency of the glider airfoil is mainly due to the reduction of skin friction by long extension of laminar boundary layers on its upper and lower surfaces.
+Glider Airfoil,Reynolds Number (Re),The glider airfoil operates at low Reynolds numbers (Re << 2 â¢ 106)	 which promotes long extension of laminar boundary layers.
+Thickness Distribution,Mean Line,Mean lines are combined with thickness distributions to form airfoil sections
+Thickness Distribution,Manufacturability,The distribution of thickness along the chord line can impact manufacturability.
+Airfoil Chord,Station,The airfoil chord is used to normalize the station coordinates of the airfoil.
+Airfoil Chord,NACA 65-009,NACA 65-009 ordinates are given in percent of airfoil chord
+AIRFOILUPPERSURFACE,X/C,The upper surface of the airfoil is defined at various X/C points.
+AIRFOILUPPERSURFACE,Cp,The pressure coefficient on the upper surface of the airfoil varies along its chord length.
+Lift force,Airfoil,The airfoil generates lift force through its upper surface.
+Temperature,Airfoil,The average temperature for the operation of this airfoil is 330 C.
+Lift characteristics,NACA 0012 airfoil,The numerical results are validated by comparing with experimental data for NACA 0012 airfoil lift characteristics
+Lift characteristics,Airfoil,An analysis of lift characteristics is included in the report for the airfoils.
+Lift characteristics,Airfoil section,Fixing transition on an airfoil model in a wind tunnel can affect its lift characteristics
+Target pressure distribution,Airfoil,Airfoil is designed to achieve a specific target pressure distribution through inverse design algorithm.
+Target pressure distribution,LSTM network,The LSTM network is trained and evaluated using the first N generated data from the ID process	 with the target pressure distribution as input.
+Computational domain,NACA-4412,The computational domain is discretized by a C-type mesh and has a size characterized by wake length W	 domain radius R	 and spanwise size Lz
+Computational domain,NACA-0012-64,The computational domain is discretized by a C-type mesh and has a size characterized by wake length W	 domain radius R	 and spanwise size Lz
+Genetic Algorithm (GA),Airfoil Optimization,The Genetic Algorithm is a method used for optimizing airfoil designs.
+Lower surface,Airfoil,The pressure distribution varies over the lower surface of the airfoil along the chord.
+Lower surface,NACA 65(215)-214,The airfoil NACA 65(215)-214 has a lower surface
+Lower surface,Upper surface,Airfoil consists of upper and lower surfaces
+Lower surface,Lift coefficient (Cl),The lift coefficient at the lower surface is given as Cl = 0.5
+pressure coefficient,maximum camber,Variations in the position of maximum camber affect the peak negative pressure coefficient
+pressure coefficient,Mach number,Increasing Mach number affects the pressure coefficient at subcritical speeds
+NACA 6-series airfoils,drag coefficient,Pressure distributions cause sudden increase in drag coefficient due to forward location of transition on the upper surface.
+NACA 6-series airfoils,lift coefficient,Airfoils permit extensive use	 such as the NACA 6-series airfoils	 have much lower drag coefficients at high speed and cruise lift coefficients
+NACA 6-series airfoils,Thickness form,NACA 6-series airfoils are obtained by combining the NACA . 653-018 basic thickness form
+NACA 6-series airfoils,Mean line,NACA 6-series airfoils are obtained by combining with the a = 1.0 type mean line
+NACA 6-series airfoils,Maximum lift coefficient,NACA 6-series airfoils have obtained high maximum lift coefficients in tests
+NACA 6-series airfoils,minimum pressure position,The 'x' digit in the NACA 6-series designation denotes the chordwise position of minimum pressure (in tenths of the chord) behind the leading edge for the basic symmetrical section at zero lift.
+NACA 6-series airfoils,Drag coefficient,NACA 6-series airfoils exhibit a sharp increase in drag coefficient at high lift coefficients due to sudden shifts in transition location.
+Early airfoil families,Airfoil,The early families of airfoils generally showed relatively low maximum lift coefficients and were designed for an excessive extent of laminar flow.
+Early airfoil families,Maximum lift coefficient,These airfoils had relatively low maximum lift coefficients.
+Neural Networks,Automated Design,uses neural networks for optimization
+Neural Networks,Optimizer,The neural networks are integrated with an optimizer in Method 9
+drag characteristics,surface condition,The effects of surface condition on the lift and drag characteristics are as large as the effects of the airfoil shape
+drag characteristics,airfoil shape,The effects of surface condition on the lift and drag characteristics are as large as the effects of the airfoil shape	 and must be considered in airfoil selection
+lift coefficient,Airfoil,Airfoils have a lift coefficient (C_l)	 which is a measure of their ability to generate lift.
+lift coefficient,drag coefficient,At the end of the low-drag range	 drag increases rapidly with an increase in lift coefficient
+lift coefficient,NACA 6-series,NACA 6-series sections retain satisfactory lift characteristics up to higher Mach numbers than the earlier sections.
+lift coefficient,camber line,The lift coefficient can be obtained from the camber line of hydrofoils.
+lift coefficient,flow separation,Large changes in lift coefficients are associated with the sudden breaking away of flow from the upper surface	 indicating flow separation.
+lift coefficient,airfoil section,On a single revolution	 the airfoil sections can experience lift coefficients from negative values to maximum lift.
+lift coefficient,Mach number,The lift coefficient escalates with increasing Mach number but approaches a dramatic downslope near sonic velocity.
+lift coefficient,accuracy,Accuracy becomes insufficient to define curves representing variations of lift coefficient with angle of attack at low Reynolds Numbers.
+lift coefficient,Reynolds number,The lift coefficient reduces as the Reynolds number increases.
+flight conditions,airfoil section characteristics,Airfoil section characteristics applicable to flight are influenced by variations in flight conditions.
+x/c,Cp,The Pressure Coefficient (Cp) varies with the chordwise location x/c
+x/c,Lower Surface,The lower surface of an airfoil is defined at various x/c coordinates
+x/c,Airfoil,Airfoil has a parameter x/c representing the fraction of chord where measurements are taken.
+Position of minimum pressure,Maximum lift coefficient,The maximum lift coefficient decreases with the rearward movement of the position of minimum pressure for airfoils except those with thickness ratios greater than 18 percent.
+Position of minimum pressure,NACA 6-series sections,Magnitude of moment coefficient increases with rearward movement of position of minimum pressure for thicker NACA 6-series airfoils
+Tip section,Airfoil,The thickness ratio of the tip section can be increased due to the absence of induced velocities from interfering bodies.
+Tip section,Airfoil section,The tip sections may easily cause tip stalling due to the use of an unfavorable plan form.
+Value of Vic,Reynolds Number,There are two possible explanations for the somewhat larger value of Vic at which the rapid change in the lift coefficient occurred in the Edgewood experiment	 one being the Reynolds number
+Lift Coefficient,Angle of Attack (AOA),Higher AOA results in higher lift coefficient until stall
+Lift Coefficient,Airfoil,The lift coefficient is computed or approximated for airfoils.
+Lift Coefficient,Drag Coefficient,Both lift coefficient and drag coefficient are important parameters in airfoil design	 affecting performance.
+Lift Coefficient,Reynolds Number,Variations in Reynolds number affect the lift coefficient
+Lift Coefficient,Iterations,The lift coefficient converges quickly	 reaching 1% of the target value by iteration 5 and maintaining that accuracy for most iterations.
+Lift Coefficient,NACA 4412 Airfoil,The NACA 4412 Airfoil's aerodynamic characteristics are measured by its lift coefficient.
+Lift Coefficient,Aerodynamic Characteristics,The lift coefficient provides a means to measure an airfoil's aerodynamic characteristics.
+Airplane,Airfoil,An airfoil is designed for use on a specific type of airplane
+flow over airfoil,Reynolds number,Flow past an airfoil is strongly influenced by Reynolds number
+Section angle of attack,Airfoil,An airfoil's performance depends on its section angle of attack
+Section angle of attack,Lift,Changing the section angle of attack can alter the lift coefficient of an airfoil
+NACA 4412 Airfoil,Drag Coefficient,The NACA 4412 Airfoil's aerodynamic characteristics are measured by its drag coefficient.
+Flaps,Airfoil,Airfoil can have external-airfoil flaps
+Flaps,Maximum lift coefficient,Airfoils with flaps have about the same maximum lift coefficients as moderately thick NACA 6-series sections
+pressure distributions,Airfoil,Pressure distributions on an airfoil influence its flow behavior.
+pressure distributions,geometries,The term 'pressure distributions' is directly linked to 'geometries'	 as they are described together in the context of inverse design methods.
+Thickness Ratio,Maximum Thickness,The maximum thickness of an airfoil is a function of the thickness ratio
+Thickness Ratio,Manufacturability,The thickness ratio of an airfoil can affect its manufacturability
+Thickness Ratio,Airfoil Shape,Thicker airfoils have lower maximum lift coefficient but better stall characteristics
+Thickness Ratio,Drag Coefficient,The drag coefficient varies as the five-thirds power of thickness ratio at M = 1
+Maximum Lift Coefficient,Laminar Boundary Layer Separation,The occurrence of laminar boundary layer separation does not define the maximum lift coefficient. For instance	 at very low Reynolds Numbers	 separation occurs even at zero lift.
+Maximum Lift Coefficient,Maximum Thickness Location,Moving maximum thickness location from 30% to 45% chord reduces maximum lift coefficient by about 15%.
+NACA 7-series,Airfoil,The NACA 7-series family of airfoils is characterized by a greater extent of laminar flow on the lower than on the upper surface.
+Angle of attack (a),Airfoil,The angle of attack affects airfoil performance; it was modified to be lower than its previous upper bound
+Angle of attack (a),Lift,The lift generated by an airfoil increases with increasing angle of attack up to a certain point	 after which it starts to decrease.
+NACA ACR,Lift-curve slope,The values of the lift-curve slope for NACA ACR airfoils were measured at a Reynolds number of approximately 9 million.
+Profile drag coefficient,NACA 653-418 airfoil,The NACA 653-418 airfoil has a profile drag coefficient that contributes to the wing's total drag.
+Reynolds Number,Airfoil,Airfoil characteristics are affected by variations of the Reynolds number	 as noted in NACA Rep. No. 586.
+Reynolds Number,Airfoil section characteristics,The variations of Reynolds Number affect airfoil section characteristics
+Reynolds Number,accuracy,Sufficient accuracy was obtainable only at high values of the Reynolds Number.
+Reynolds Number,airfoil characteristics,Airfoil characteristics dependent on curve shapes are unreliable at effective Reynolds Numbers below 800	000.
+Reynolds Number,Drag Coefficient,Changes in Reynolds number influence the drag coefficient
+Reynolds Number,transition from laminar to turbulent flow,The transition from laminar to turbulent flow in the boundary layer is primarily a function of the Reynolds Number
+Reynolds Number,Effective Reynolds Number,The effective Reynolds number is higher than the actual Reynolds number of the test	 obtained by multiplying it with a factor and adding a correction increment for profile drag coefficients.
+Reynolds Number,NACA 0012 airfoil,The performance of NACA 0012 airfoil varies with Reynolds Number	 experiencing flow separation below a Reynolds Number of 800	000.
+Reynolds Number,Boundary layer,Larger drag reductions occur in the laminar part of the boundary layer when transitioning to higher Reynolds Numbers.
+Reynolds Number,separation,Low Reynolds Numbers are associated with primary importance in separation phenomena.
+Reynolds Number,Laminar Boundary Layer Separation,A decrease in Reynolds Number leads to laminar boundary layer separation.
+Reynolds Number,Lift,Changes in Reynolds number can lead to variations in lift coefficient.
+drag coefficient (CD),Airfoil,The drag coefficient represents the resistance of an airfoil to motion through a fluid	 primarily due to friction and pressure drag.
+drag coefficient (CD),lift coefficient (CL),The lift and drag coefficients for this particular example are CL = 1.53x10^-5 and CD = 4.82x10^-6	 respectively.
+NAOA 56-series sections,Airfoil,The airfoil is a part of the NAOA 56-series sections
+Model,Angle of attack,Models were tested at varying angles of attack
+Model,Airfoil,The Model is a specific type of Airfoil.
+airfoil section characteristics,Reynolds number,The variation of airfoil section characteristics with profile shape is affected by the Reynolds number.
+vortex shedding,NACA-0012-64,The NACA-0012-64 airfoil experiences vortex shedding	 leading to the appearance of corrugations on the vortex layer further downstream.
+vortex shedding,NACA-4412,The NACA-4412 airfoil also experiences vortex shedding	 although less prominently than the NACA-0012-64.
+vortex shedding,NACA-4412 airfoil,The vortex sheds away from the shear layer of NACA-4412 airfoil at around x/C=0.80.
+vortex shedding,NACA-0012-64 airfoil,For the NACA-0012-64 airfoil	 the vortex sheds away from the shear layer at around x/C=0.3.
+airfoil parameters,performance,Airfoil parameters such as camber and thickness affect performance
+PROFOIL,airfoil geometry,PROFOIL generates an airfoil geometry
+PROFOIL,airfoil shape,PROFOIL generates candidate airfoils based on specified values
+normal force,airfoil section,The normal force is a component of the forces acting on an airfoil section.
+NACA 0012 airfoil,Drag coefficient,The drag coefficient of NACA 0012 airfoil increases abnormally at Reynolds Numbers below 800	000 due to flow separation.
+NACA 0012 airfoil,lift coefficients,CFD analysis cases are performed to study the effect of wind tunnel walls on the lift coefficients of NACA 0012 airfoil.
+NACA 0012 airfoil,drag coefficients,CFD analysis cases are performed to study the effect of wind tunnel walls on the drag coefficients of NACA 0012 airfoil.
+NACA 0012 airfoil,Experimental study,The experimental study was conducted on a NACA 0012 airfoil.
+NACA 0012 airfoil,Mach number,The Mach number affects the flow around a NACA 0012 airfoil	 potentially causing separation.
+NACA 0012 airfoil,leading-edge separation bubble,The NACA 0012 airfoil hosts a leading-edge separation bubble that persists during stall.
+NACA 0012 airfoil,Lift,Even at zero lift	 NACA 0012 airfoil experiences flow separation at low Reynolds Numbers.
+Cd,Airfoil,airfoils produced have lower Cd values than the comparison E168 airfoil
+Cd,Cl,Cd value is compared at a Cl of 0.92
+Cd,Reynolds number,Cd value is compared at a Reynolds number of 300	000
+RSM,design space,In RSM	 a global approximation of measured quantities over the design space is carried out
+NACA four-digit-series airfoils,Quarter-chord pitching-moment coefficient,The quarter-chord pitching-moment coefficients of NACA four- and five-digit-series airfoils become less negative with increasing airfoil thickness.
+Design parameters,NACA four-digit wing-sections,In classical NACA four-digit wing-sections	 design parameters specify the shape of the primary boundary and include camber (A)	 maximum thickness (T)	 location of camber (C)	 and A4.
+Design parameters,Camber line,Camber line is designed using certain parameters in the context of NURBS representation
+NACA-0012-64 airfoil,Transition from quasi-2D to 3D flow,The transition occurs further upstream at x/C = 0.1 for NACA-0012-64
+NACA-0012-64 airfoil,3D flow,the distribution of x confirms the earlier transition to 3D flow for this airfoil.
+NACA-0012-64 airfoil,NACA-4412 airfoil,NACA-0012-64 airfoil experiences laminar-turbulent transition scenario much earlier than NACA-4412 airfoil
+Transition from quasi-2D to 3D flow,NACA-4412 airfoil,The transition starts at around x/C = 0.6 for NACA-4412
+NACA 653-412,Airfoil,The NACA 653-412 is a specific type of airfoil
+lift coefficient (Cl),Airfoil,Airfoil generates lift	 represented by its lift coefficient
+lift coefficient (Cl),Reynolds number (Re),The Reynolds number affects the lift coefficient	 with different values giving rise to different lift coefficients for an airfoil.
+lift coefficient (Cl),airfoil shape,Changes in airfoil shape have a negligible influence on the value of lift coefficient
+lift coefficient (Cl),circulation,Circulation is determined by a known quantity	 which is experimentally measured lift coefficient
+CST method,Airfoil,The CST method is used to smooth the airfoil during inverse design.
+Station,Airfoil,Pressure is measured at different stations along the airfoil.
+lower surface,Airfoil,Airfoils have a lower surface with varying ordinates along its length
+lower surface,upper surface,Pressure disturbances occur first on the upper surface and travel downstream to the lower surface.
+airfoil shape,lift characteristics,The effects of surface condition on the lift and drag characteristics are as large as the effects of the airfoil shape	 and must be considered in airfoil selection
+airfoil shape,NACA TN 3797,NACA TN 3797 illustrates an airfoil shape
+airfoil shape,suction surface pressure distribution,The suction surface pressure distribution function influences the airfoil shape.
+airfoil shape,Airfoil,The characteristics of an airfoil are affected by its shape.
+airfoil shape,performance,Airfoil shape greatly influences its performance in terms of lift and drag coefficients.
+DSMA-523A Airfoil,LSTM Network,The DSMA-523A airfoil was designed using an LSTM network in the inverse design process.
+circulation,shed vortex,The shed vortex is related to the circulation around the airfoil at the time it's formed.
+3D flow,NACA-4412 airfoil,the flow fully develops to 3D in the near-wake region where x/x shows strong spanwise non-uniformity for this airfoil.
+3D flow,NACA-0012-64,NACA-0012-64 case reflects relatively fully developed 3D flow
+Moment Coefficient (Cmc/4),Mean Line,The moment coefficient is found by applying a method developed by Pankhurst using the airfoil coordinates generated in FDCOOR
+optimization,performance,Optimization of airfoil parameters improves performance by minimizing drag or maximizing lift-to-drag ratio.
+shear layer,vortex,The shear layer flow transitions from quasi-2D to 3D via the Kelvin-Helmholtz mechanism	 forming and shedding vortices.
+thickness distribution,Airfoil,the thickness distribution of an airfoil can be varied
+thickness distribution,thickness,Thickness distribution is a related parameter to thickness	 describing how the thickness varies along the chord.
+thickness distribution,camber line,The camber line is defined by a NURBS curve using three control points and then the thickness distribution (Eq.(3)) is added and subtracted to it
+thickness distribution,airfoil section,An airfoil section has a thickness distribution ranging from 0.08 to 0.2.
+maximum camber,NACA TN 3797,The NACA TN 3797 airfoil has a maximum camber of 0.07 at x/c = 0.5
+maximum camber,airfoil thickness ratio,The subroutine MAXCL estimates the maximum lift coefficient as a function of the maximum camber and the airfoil thickness ratio
+maximum camber,Reynolds number,Investigations showed that Reynolds number has a minimal effect on the relationship between maximum camber and design lift coefficient
+Lift Coefficient (CL),Airfoil,The lift coefficient CL is given by Cy cosa - CX sina	 which provides information about the airfoil's lifting capability.
+Drag characteristics,Airfoil,An analysis of drag characteristics is included in the report for the airfoils.
+Laminar flow,Airfoil,Airfoil design can achieve laminar flow even at high Mach and Reynolds numbers.
+Laminar flow,Drag coefficient,Extensive laminar flow leads to substantially lower drag coefficients when smooth
+Airfoil section,NACA ACR No.,The NACA ACR number is used to identify an airfoil section.
+Airfoil section,NACA ACR No. L5C05,The NACA ACR No. L5C05 is a specific airfoil section.
+Airfoil section,Maximum thickness location,An airfoil section has a maximum thickness located at a certain percentage of the chord line.
+Airfoil section,Pressure distribution,The pressure distribution over an airfoil section provides direct knowledge of the airfoil's performance
+Airfoil section,Pitching-moment coefficient Cm Î±,The pitching-moment coefficient Cm Î± is used to characterize the airfoil section's stability in pitch.
+Airfoil section,Maximum lift coefficient,The variation with angle of attack of lift coefficient (C_L) and minimum section drag coefficient (C_Dmin) is shown for each airfoil section.
+Airfoil section,NACA 63	4-420 airfoil,The NACA 63	4-420 is a type of airfoil section.
+Airfoil section,Camber line,An airfoil section is defined by its camber line	 thickness distribution	 and other parameters.
+Airfoil section,Lift coefficient (C_l),The lift coefficient is a key performance parameter of an airfoil section.
+Airfoil section,Manufacturability,The manufacturability of an airfoil section is influenced by its thickness distribution and other design parameters.
+LSTM network,performance,The performance of an LSTM network can be increased by teaching it meaningful changes in pressure distributions and geometries.
+NACA-4412,Turbulence,Develops significantly downstream of the trailing edge for the NACA-4412 airfoil
+NACA-4412,Airfoil,NACA-4412 is a type of airfoil.
+NACA-4412,NACA-0012-64,Both airfoils have straight profiles without spanwise variation in cross-section
+lift coefficients,model,At lift coefficients less than 1.0 the agreement between flight and tunnel data is considered satisfactory. At higher lift coefficients some divergence of the tunnel and flight data is indicated
+minimum pressure position,drag coefficient,There is a regular decrease in drag coefficient with the rearward movement of minimum pressure.
+Airfoil contour,Camber line,The camber line is built up by superimposing thickness distributions on both sides of the airfoil to form the airfoil contour.
+camber line,NURBS,NURBS is used to define the camber line of an airfoil
+camber line,airfoil section,An airfoil section has a camber line with varying values (e.g.	 0.004 to 0.036).
+Cp,Lower Surface,The lower surface has a pressure coefficient (Cp).
+Cp,Airfoil,Airfoil pressure coefficient Cp is a dimensionless quantity that represents the pressure distribution along the surface of an airfoil. It's calculated as (P-Pâ)/q	 where P is local pressure	 Pâ is freestream pressure and q is dynamic pressure.
+Cp,X/C,X/C (Chord fraction) determines the location on the airfoil where pressure coefficient Cp is being evaluated. As X/C varies from 0 to 1	 Cp changes along the chord length.
+suction surface pressure distribution,trailing edge,There is a non-negligible response toward the trailing edge in the suction surface pressure distribution.
+leading edge radius,Airfoil,An airfoil has a leading edge radius	 which is 1.000 in this case
+Maximum thickness location,Airfoil,The location of maximum thickness for both airfoils is nearly the same
+Airfoil,Angle of attack (AOA),The angle of attack is a crucial parameter in airfoil performance	 affecting lift and drag.
+Airfoil,lift,The lift carried by the airfoil induces an equal and opposite reaction upon the floor and ceiling of the tunnel.
+Airfoil,NACA ACR No. L5C05,The NACA ACR No. L5C05 is a specific type of airfoil.
+Airfoil,NACA,The airfoil discussed is a NACA airfoil.
+Airfoil,Upper surface,The pressure distribution varies over the upper surface of the airfoil along the chord.
+Airfoil,Mean line,An airfoil has a mean line.
+Airfoil,Angle of attack,The flow around an airfoil is influenced by its angle of attack.
+Airfoil,upper surface,Airfoils have an upper surface with varying ordinates along its length
+Airfoil,Section,An airfoil has one or more sections
+Airfoil,Manufacturability,The manufacturability of an airfoil is affected by its thickness and the complexity of its shape.
+Airfoil,Reynolds number,The Reynolds number is an important factor in airfoil design and analysis due to its effect on skin friction drag
+Airfoil,Mach number,The drag increases sharply as Mach number increases
+Airfoil,NACA 6-series,NACA 6-series are specific types of airfoils.
+Airfoil,wind tunnel,The effect of the tunnel walls plays an important role in determining the flow features and performance of airfoil such as lift and drag coefficients.
+Airfoil,Lift,The lift generated by an airfoil is affected by its camber and thickness.
+Airfoil,Angle of attack (Î±),The angle of attack is a critical parameter in airfoil design and analysis	 affecting lift and drag coefficients
+Airfoil,Thickness ratio (t/c),Airfoil has thickness ratio	 typically around 0.09 for N.A.C.A. 23012
+Airfoil,transition,The instability of the shear layer leads to transition initiated by the amplification of natural disturbances.
+Airfoil,flow separation,Flow past an airfoil may experience separation	 which is different from that over a flat plate with a bump.
+Airfoil,NACA-0012-64,NACA-0012-64 is a type of airfoil.
+Airfoil,vortex,Different airfoils exhibit different vortex development patterns due to varied leeward surface curvatures and leading edge shapes.
+Airfoil,spanwise distortion,Spanwise distortion is first observed roughly in the shear layer above the surface of an airfoil.
+Airfoil,thickness,Airfoil has thickness which affects manufacturability
+Airfoil,Boundary layer,The boundary-layer displacement in the vicinity of the test model was reduced by about 75% due to sidewallsuction	 which minimized wall interference effects.
+Airfoil,Lower Surface,An airfoil has a lower surface.
+Airfoil,Reynolds number (Re),Airfoil design can achieve laminar flow even at high Reynolds numbers.
+Airfoil,Lift coefficient (Cl),The lift generated by an airfoil is represented by its lift coefficient.
+Airfoil,X/C,Airfoil has a parameter called X/C (Chord fraction) which varies from 0 to 1.
+Airfoil,lift coefficient (CL),The airfoil has a lift coefficient represented as CL.
+Airfoil,Pressure,Pressure is distributed over the mid-chord section of the airfoil
+Airfoil,Aerodynamic characteristics,The design and parameters of an airfoil determine its aerodynamic characteristics	 such as lift and drag coefficients.
+Airfoil,maximum thickness,Was 0.10	0.12	0.14	0.16	0.18	 and 0.20 inch respectively for the six airfoils
+Airfoil,station,Airfoils are described using stations	 which are points along the chord line
+Airfoil,accuracy,Accuracy of measurements on airfoils is important and difficult to determine precisely without many stations.
+Airfoil,Moment Coefficient,The moment coefficient is computed or approximated for airfoils.
+Airfoil,drag coefficient,Airfoils also have a drag coefficient (C_d)	 which is a measure of their aerodynamic drag.
+Airfoil,Flap-Edge model,The airfoil used in this study is a cross-section of the Flap-Edge model.
+Airfoil,Flap,An airfoil can have flaps.
+Airfoil,Drag coefficient,Roughening surfaces can lead to excessive drag coefficients at cruising or climbing conditions	 making them unconservative for heavily loaded airplanes operating at high altitudes
+Airfoil,Reynolds numbers,The chord length allows data to be obtained at representative full scale Reynolds numbers
+Airfoil,Flow,Steady-state oil flow studies demonstrated that only a small portion of the airfoil surface aft of the quarter chord was affected by the supports	 with negligible effect on the center span flow.
+Airfoil,stagnation point,Chordwise fluctuation of the stagnation point affects airfoil pressure distribution.
+Airfoil,end plates,The presence of end plates reduces the amount of three-dimensional separation for airfoils.
+Airfoil,frequency,A higher frequency generally increases the maximum normal force and extends that portion of the cycle during which this increase takes place	 improving cyclic load carrying capability.
+Airfoil,NACA series,Airfoils can belong to NACA series like NACA 63-series.
+Airfoil,Maximum Thickness Location,The maximum thickness location affects the variation of section lift coefficient with drag divergence Mach number.
+Airfoil,Scale effect,Important scale effects were observed for some airfoils even within the flight range of Reynolds number
+Airfoil,lift-curve peaks,In several cases	 only the lift-curve peaks were obtained at the lower Reynolds Numbers
+Airfoil,Camber shape,The camber shape of an airfoil influences its performance.
+Airfoil,NACA 4409,NACA 4409 is a specific type of airfoil.
+Airfoil,NACA 23021,The airfoil in question is the NACA 23021
+Airfoil,split flap,An airfoil with a split flap tends to behave similarly to one without	 simply adding an increment to its maximum lift.
+Airfoil,NACA 23012,NACA 23012 is an example of an airfoil
+Airfoil,Camber line,Airfoil performance depends on camber line
+Airfoil,profile-drag coefficients,The profile-drag coefficients obtained for the two airfoils are plotted in figures 46 and 47.
+Airfoil,Wing,An airfoil is used on a wing
+Airfoil,Genetic Algorithm,Used to optimize the shape of an airfoil
+Airfoil,XFOIL,XFOIL is a software tool used for analyzing airfoils
+Airfoil,BezierGA,BezierGA also produces airfoils
+Airfoil,Design variables,Design variables used by ProfoilGA control velocity distribution directly
+Airfoil,PARSEC,Airfoils can be reconstructed using tools like PARSEC for verification.
+Airfoil,variable-density wind tunnel,The airfoil was tested in a variable-density wind tunnel
+Airfoil,Midspan Section,An airfoil has a midspan section
+Airfoil,Camber (te),An airfoil has camber	 which is represented by 'te'.
+Airfoil,parameterization,Airfoils can be parameterized
+Airfoil,Lift-to-drag ratio,The lift-to-drag ratio of the airfoil is chosen as the optimization objective
+Airfoil,optimization process,The optimization process aims to find the best shape or parameters of an airfoil to maximize lift and minimize drag.
+Airfoil,NACA 0010-35,The NACA 0010-35 is a specific type of airfoil
+Airfoil,Pressure distribution,Airfoil shape influences pressure distribution over its surface	 which in turn affects lift and drag.
+Airfoil,stall,The airfoil exhibits unsatisfactory stall due to strong outflow resulting in severe tip stall
+Airfoil,wing,An airfoil is a cross-section shape of a wing.
+Airfoil,geometry,An airfoil has a specific geometry
+Airfoil,Geometry,Airfoil has geometry that can change.
+Airfoil,LSTM Network,Airfoils can be analyzed using LSTM Networks
+Airfoil,Computational Fluid Dynamics (CFD),Airfoil analysis often involves computational fluid dynamics to simulate and analyze aerodynamic performance.
+Airfoil,inverse design,Airfoils can be designed using inverse methods	 where desired pressure distribution is specified and airfoil shape is determined accordingly.
+Airfoil,Mean Line,An airfoil has a mean line that defines its shape.
+Airfoil,NACA 65(215)-214,The specific airfoil used in the example	 obtained by combining thickness and camber.
+Airfoil,Maximum lift coefficient,The maximum lift coefficient is a key performance parameter of an airfoil
+Airfoil,Chord length,An airfoil's chord length is a key parameter in its design and analysis.
+Airfoil,Washout,A small amount of aerodynamic washout is useful in avoiding tip stalling and may not significantly increase induced drag for low degrees.
+Airfoil,trailing edge,The trailing edge is another boundary of the airfoil
+Airfoil,NACA66(215)-(1.8),The NACA66(215)-(1.8) is a type of airfoil used in aircraft wings.
+Airfoil,NACA 63	4-020,NACA 63	4-020 is a specific airfoil design
+Airfoil,NACA 0006,NACA 0006 is a type of airfoil
+Airfoil,Lift coefficient (C_l),An airfoil generates lift when moving through the air	 quantified by its lift coefficient (C_l).
+Airfoil,performance,Airfoils have performance characteristics such as lift and drag.
+Airfoil,Reynolds Number (Re),Airfoil performance is affected by the Reynolds number	 which is a function of airspeed and chord length.
+Computational Fluid Dynamics (CFD),High-lift design,Recently	 computational fluid dynamics has been incorporated in high-lift design.
+X/C,Lower Surface,The lower surface has a chord distribution (X/C).
+grid topology,geometry,To establish a grid topology for any geometry	 it is essential to examine each component separately
+Manufacturability,Airfoil Shape,The shape and thickness of an airfoil can affect its manufacturability.
+Manufacturability,Camber shape,The manufacturability of an airfoil can be influenced by its camber shape.
+Manufacturability,NACA RM No. L7I22,The manufacturability of an airfoil can be influenced by its thickness ratio	 camber line location	 and maximum camber
+Manufacturability,Airfoil sections,The manufacturability of airfoil sections is a consideration in their design and development
+Manufacturability,Airfoil coordinates,The airfoil coordinates can impact manufacturability. Complex shapes may require more advanced manufacturing techniques or result in higher costs.
+optimizer,design space,The optimizer searches within the design space.
+Lift coefficient (Cl),Angle of attack (Î±),The lift coefficient varies with the angle of attack.
+Lift coefficient (Cl),Airfoil section characteristics,Airfoil section characteristics include lift coefficient which varies with changes in Reynolds Number
+Lift coefficient (Cl),Angle of attack,The angle of attack determines the lift coefficient (Cl) for an infinite aspect ratio.
+Lift coefficient (Cl),Upper surface,The lift coefficient at the upper surface is given as Cl = 0.5
+NURBS,Camber distribution,Can bypass camber and thickness distributions to control wing-section directly
+Drag Coefficient,Angle of Attack (AOA),Increase in AOA leads to increase in drag coefficient
+Drag Coefficient,Iterations,The drag coefficient takes longer to converge than the lift coefficient	 overshooting initially but slowly decreasing to stay within 1% of the target value by the end of the design.
+Drag Coefficient,Aerodynamic Characteristics,The drag coefficient provides a means to measure an airfoil's aerodynamic characteristics.
+parameterization,optimization process,Parameterization can optimize airfoil design	 but this process is time-consuming
+airfoil thickness ratio,drag coefficient,Excessive drag coefficient limits the maximum airfoil thickness ratio to values less than about 0.20
+NACA 0010 - 1.10 40/1.051,maximum thickness,The third and fourth digits in NACA 0010 - 1.10 40/1.051 indicate maximum thickness
+Boundary layer,Turbulence,The boundary layer on an airfoil is largely turbulent due to high values of the Reynolds number	 which affects the transition boundary layer.
+Boundary layer,NACA 653-418 airfoil,The performance of this airfoil may be affected by the presence of the boundary layer	 causing some discrepancy between experimental and theoretical results.
+Basic Thickness Form,NACA 65-012,NACA 65-012 follows the Basic Thickness Form
+XFOIL,airfoil geometry,Airfoil geometry is analyzed with XFOIL to converge
+NACA 23012,airfoil section,The NACA 23012 is a type of airfoil section
+Airfoil Data,NACA 65-012,NACA 65-012 is a type of airfoil data
+LSTM unit,inputs,An LSTM unit receives inputs.
+Camber distribution,NACA 4-digit family,The camber distribution is treated separately in the NACA 4-digit family.
+pressure drag,sweep angle,An increase in sweep angle increases pressure drag on the airfoil.
+Effective Reynolds Number,Turbulence,The correction for turbulence is made by use of the concept of an effective Reynolds Number.
+Effective Reynolds Number,NACA 4409,NACA 4409's performance is affected by the effective Reynolds number	 used in the correction increment calculation
+Airfoil performance,Angle of attack (AOA),Airfoil performance is influenced by angle of attack
+Airfoil performance,Airfoil camber,Camber is another variable related to the shape of the airfoil that impacts its performance
+Airfoil performance,Split flap,The presence and deflection of the split flap affects the airfoil's lift	 drag	 and manufacturability
+Airfoil performance,Pitot tube calibration,Accurate pitot tube calibration is crucial for measuring airfoil performance.
+Airfoil performance,Critical Mach number,The critical Mach number is a crucial parameter in airfoil performance	 especially for transonic flows.
+Airfoil performance,Lift,The performance of an airfoil includes its lift coefficient
+Critical Mach number,NACA 6-series,...and critical Mach number characteristics.
+Critical Mach number,NACA 0006,The critical Mach number varies with the low-speed section lift coefficient for NACA 0006 airfoil.
+pressure response,trailing edge,Conversely	 the trailing edge value of the pressure response for each surface was independently extrapolated...
+Flow variables,Instantaneous value,Flow variables include the instantaneous value of a point x at time t (/Ã°x; tÃ).
+NACA 0006,NACA series,The NACA series includes specific airfoils like NACA 0006.
+NACA-0012-64,Flow,Experiences detachment at x/C = 0.08 and separated shear layer transition via KelvinâHelmholtz mechanism occurs at x/C = 0.29 with fully developed turbulent flow around x/C = 0.80
+drag coefficient,Reynolds number,The value of drag coefficient in the low-drag range for smooth airfoils is mainly a function of Reynolds number.
+Airfoil thickness distribution,NACA RM No. L7I22,The NACA RM No. L7I22 has a basic thickness distribution as shown in Figure 8
+NACA 4409,Camber line,NACA 4409 has a specific camber line shape that contributes to its performance
+Lower Surface,Pressure,The absolute values of pressure fluctuation on the lower surface were largest near the leading and trailing edges.
+Lower Surface,NACA 65-012,NACA 65-012 has a lower surface with thickness distribution
+Thickness form,Mean line,Thickness form and mean line are combined to create an airfoil
+drag reduction,Reynolds number,Data shows large reductions in drag with increasing Reynolds number for many airfoils
+lift-curve peaks,stalling,Stalling is progressive as indicated by rounded lift-curve peaks in figure 32
+NACA series,Camber line,The NACA series defines airfoils with different camber lines.
+Upper surface,NACA 65(215)-214,The airfoil NACA 65(215)-214 has an upper surface
+Normal force,Pressure distribution,The normal force on an airfoil is generated by the difference in pressure between its upper and lower surfaces due to the shape of the airfoil (camber).
+NACA RM No. L7I22,Camber line,The NACA RM No. L7I22 has a specified camber line	 with key points at various fractions of the chord length.
+NACA RM No. L7I22,Thickness ratio (t/c),The thickness ratio of the NACA RM No. L7I22 is 0.16
+Angle of Attack (AOA),Suction,Suction enhances lift and reduces drag at lower AOAs	 and improves aerodynamic performance and delays stalling at higher AOAs.
+Section lift coefficient,Angle of attack,The angle of attack required to maintain a constant section lift coefficient
+Lift-curve slope,Airfoil camber,Variations in airfoil camber appear to have a systematic effect on values of lift-coefficient curve slope.
+NACA 0010-35,airfoil section,NACA 0010-35 is an airfoil section with given stations and ordinates in percent of airfoil chord.
+NACA 0010-35,Lift,The NACA 0010-35 has specific aerodynamic characteristics	 including lift
+Airfoil sections,Maximum lift coefficient,The investigation produced airfoil sections with higher maximum lift coefficients.
+Airfoil sections,Lift,The performance of airfoil sections is characterized by lift
+Reynolds number,NACA 65-420 airfoil,The drag coefficient of the NACA 65-420 airfoil remained substantially constant up to a Reynolds number of nearly 40 x 10^6.
+Reynolds number,NACA 653-418 airfoil,The drag coefficient for the NACA 653-418 airfoil decreases with increasing Reynolds number.
+Reynolds number,Low-drag range,An increase in Reynolds number reduces the extent of the low-drag range
+Reynolds number,Maximum lift coefficient,The Reynolds number affects the maximum lift coefficient of airplanes	 with service conditions leading to a lower coefficient than model tests at the same Reynolds number.
+Reynolds number,Angle of attack,A low-speed wind tunnel analysis was carried out on a 2D airfoil model in the range from 0Â° to 35Â° angle of attack at different Reynolds numbers
+Reynolds number,Navier Stokes equations,The governing equations for the present simulations are the three-dimensional incompressible Navier-Stokes equations and continuity equation in non-dimensional form	 where Re Â¼ U0C=m is the Reynolds number based on the airfoil chord length C.
+Reynolds number,Mach number,The Reynolds number varied with Mach number during the tests
+Reynolds number,Chord length,The Reynolds number at which the rapid change in the lift coefficient took place was only about one-third that at Lynn	 due to the shorter chord length used at Edgewood
+Reynolds number,Scale effect,Scale effect is influenced by changes in Reynolds number
+Reynolds number,Airfoil section characteristics,Variations in Reynolds number affect airfoil section characteristics
+Reynolds number,stalling,it appears from these scale-effect data that	 for commonly used airfoils at a high Reynolds number	 the forward separation usually wins
+Reynolds number,Drag coefficient,The drag coefficient at flight values of Reynolds number may be lower than that at a high Reynolds number if roughness is confined to the leading edge.
+Reynolds number,airfoil section,Measurements were taken at Reynolds numbers of 3.6 x 10^5	 6.0 x 10^5	 and 9.0 x 10^5.
+Reynolds number,transition,Reynolds number affects the transition point on an airfoil
+Lift-to-drag ratio,MIGA-based NLPQL,Improved lift-to-drag ratio by 62.32%
+value,thickness,Thickness has a value	 e.g.	 NACA 632-615 with thickness of 0.14
+value,lift,Lift has a value	 e.g.	 NACA 66	1-212 with lift of 0.8
+NACA 653-418 airfoil,Drag coefficient,The drag coefficient for the NACA 653-418 airfoil at low Reynolds numbers is substantiallly higher than that of the NACA 0012.
+Chord length,Flap,The flap has a chord length of 80 percent
+Mean Line,Airfoil Shape,The mean line shape defines the overall airfoil shape
+lb,Lift,Lift force is measured in pounds-force (lb)
+maximum thickness,NACA TN 3797,The NACA TN 3797 airfoil has a maximum thickness of 0.16 at the leading edge (x/c = 0)
+maximum thickness,thickness,Thickness has a point where it is maximum
+maximum thickness,airfoil section,Maximum thickness is another parameter used to define an airfoil section
+shock wave,Mach number,The presence and characteristics of the shock wave depend on Mach number
+Tip,NACA66(215)-(1.8),The NACA66(215)-(1.8) airfoil is located at the tip of an aircraft wing.
+Airfoil Optimization,Genetic Algorithm,A genetic algorithm is used to optimize the aerodynamic shape of airfoils in one of the studies mentioned.
+Flap deflection,Maximum lift coefficient,Increasing flap deflection increases the maximum lift coefficient	 but this effect is greater for thicker airfoil sections.
+Flap deflection,Design variables,Flap deflection is one of the design variables that can be modified by optimization
+NACA 65-420 airfoil,Drag coefficient,The drag coefficient generally decreases with increasing Reynolds number up to Reynolds numbers of the order of 20 x 10^6	 after which it remains substantially constant.
+NACA 65-420 airfoil,Low-drag range,The extent of the low-drag range of NACA 65-420 airfoil is reduced at high Reynolds numbers.
+Slotted Clark Y,Maximum lift coefficient,The Slotted Clark Y was designed to have the highest value of maximum lift coefficient
+Turbulence,Skin friction,Increases skin friction drag coefficient about six times without suction
+transition,separation,measurements detect transition and separation near leading edge
+transition,Reynolds numbers,Transition is prescribed to occur at the beginning of the steep pressure rise for different Reynolds numbers. At low Reynolds numbers	 laminar flow can overcome certain pressure rise.
+Split flap,NACA 23021,The NACA 23021 airfoil has a split flap which can be deflected
+station,airfoil section,Thirteen stations were chosen as a minimum number factory for determining the pressure distribution curves on the airfoil section.
+drag coefficients,model,It was not considered before the tests to represent the airplane with sufficient accuracy and detail to give reliable drag results. Therefore too much emphasis should not be given to the good agreement of drag coefficients obtained in flight and in the tunnel
+NACA,airfoil section,NACA is a type of airfoil section
+Experimental study,Angle of attack,The experimental study included angles of attack sufficient to include the onset of buffet.
+Experimental study,Reynolds numbers,The experimental study was performed at Reynolds numbers (based on airfoil chord) from 1 million to 14 million.
+Suction,Drag coefficient,Decreases the drag coefficient	 resulting in a decrease in drag
+Suction,Pressure,Suction can reduce pressure over the surface of an airfoil.
+Lift,Angle of attack,Increasing angle of attack increases lift up to a certain point	 then causes stall.
+accuracy,model,The model is accurate in predicting as shown in Figure 3.
+Lift coefficient (C_l),Camber line,The camber line affects the lift coefficient	 with higher camber resulting in higher C_l
+Airfoil Shape,Aerodynamic performance,Directly impacts drag	 lift	 and other aerodynamic characteristics
+Design variables,BezierGA,BezierGA uses ten design variables compared to ProfoilGA's five
+lift,wing,The wing produces lift.
+BezierGA,design space,The design space of BezierGA is expected to be nonlinear due to its direct-design methods
+dynamic pressure,Mach number,Dynamic pressure had increased by a factor of about 1.7	 so these large amplitudes correspond to a doubling of fluctuating pressure coefficient between the two Mach numbers
+Angle of attack (Î±),Pressure distribution,Increasing Î± affects pressure distribution along the airfoil.
+Low-drag range,NACA ACR No. L5C05,Airfoil NACA ACR No. L5C05 has a low-drag range that decreases with increasing Reynolds number.
+Navier Stokes equations,Pressure,In the Navier-Stokes equations p is the pressure.
+Mach number,airfoil characteristics,Mach number influences the characteristics of an airfoil	 but its tests are not available in this context.
+Mach number,Angle of attack,Mach numbers varied concurrently with angles of attack
+Mach number,lift-curve slope,The variations with Mach number of lift-curve slope were affected by changes in camber
+Mach number,Drag coefficient,Has relatively minor effect on drag coefficient
+Mach number,airfoil section,The airfoil sections can experience free-stream Mach numbers from low subsonic to transonic values.
+Mach number,Reynolds number (Re),A free stream Mach number of Ma = 0.8 and Reynolds number Re = 106 are used together.
+airfoil geometry,airfoil characteristics,It is advisable to relate airfoil characteristics to pressure distribution rather than directly to airfoil geometry.
+NACA 653-118 airfoil,split flap,Comparison between measured values of the increments in lift coefficients due to flap deflection and predicted values from two-dimensional data is shown for both double slotted flap and split flap.
+Angle of attack,Moment coefficient,The moment coefficient is generally reduced by increase in speed at a constant angle of attack.
+Angle of attack,Pressure distribution,Experimental and theoretical pressure-distribution diagrams for the K. A. C. A. 4412 airfoil are shown at various angles of attack
+Angle of attack,Camber line,The camber line affects the airfoil's performance at different angles of attack.
+Angle of attack,Drag coefficient,The drag coefficient varies with the angle of attack
+Angle of attack,Aerodynamic characteristics,At angles of attack between 4Â° and 8Â°	 the aerodynamic characteristics are strongly influenced.
+transition location,Reynolds number (Re),The transition location along the chord line is influenced by the Reynolds number	 affecting boundary layer behavior and drag.
+airfoil section,NACA ACR No. L5C05,NACA ACR No. L5C05 is a specific type of airfoil section.
+airfoil section,thickness,Airfoil sections can have varying thicknesses.
+airfoil section,standard roughness,Airfoil sections may have standard roughness values assigned for computational simulations.
+Geometry,Pressure,Geometry is affected by pressure
+Geometry,Pressure distribution,The deep learning models were trained to recognize the correlation between pressure distribution and corresponding geometry.
+Root,NACA66(215)-(1.8),The NACA66(215)-(1.8) airfoil is the root section of an aircraft wing.
+airplane,lift characteristics,The airplane's lift characteristics were improved
+NACA 63	4-420 airfoil,Drag coefficient (C_d),The drag coefficient is another important performance parameter of the NACA 63	4-420 airfoil.
+NACA TN 3797,thickness,The thickness distribution of NACA TN 3797 is shown with a maximum thickness of 0.16 at x/c = 0
+Pressure,Navier-Stokes equations,The Navier-Stokes equations involve pressure as one of its parameters.
+Low drag,NACA CYE airfoil section,Has low drag compared to other sections
+lift characteristics,surface condition,The effects of surface condition on the lift and drag characteristics are as large as the effects of the airfoil shape
+Drag coefficient,Moment coefficient,Both coefficients are plotted in Figs. 2 and 3
+airfoil sections,thickness,Airfoil sections have various thicknesses in their design.

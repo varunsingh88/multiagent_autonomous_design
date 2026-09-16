@@ -1,0 +1,93 @@
+{
+  "airfoil_visual_analysis": {
+    "leading_edge": {
+      "aerodynamic": [
+        "Rounded radius → smoother flow, gentle stall",
+        "Sharp radius → early separation",
+        "Smooth curvature avoids sudden pressure spikes"
+      ],
+      "manufacturability": [
+        "Extremely sharp edges are hard to machine or mold accurately",
+        "Minimum practical radius ~0.5% to 3% of chord"
+      ]
+    },
+    "trailing_edge": {
+      "aerodynamic": [
+        "Thin/sharp → lower pressure drag",
+        "Thick/blunt → higher drag, possible vortex shedding"
+      ],
+      "manufacturability": [
+        "Minimum practical thickness ~0.25% to 1% of chord for durability",
+        "Slight rounding facilitates fabrication"
+      ]
+    },
+    "camber": {
+      "aerodynamic": [
+        "More camber → higher lift at low AoA",
+        "Less camber → more stable flow",
+        "Camber distribution along chord affects lift curve and pitching moment"
+      ],
+      "manufacturability": [
+        "Extreme camber changes difficult to machine or cast",
+        "Recommended maximum camber ~3% to 6% of chord for general aircraft airfoils"
+      ]
+    },
+    "thickness_distribution": {
+      "aerodynamic": [
+        "Maximum thickness location influences lift and stall behavior",
+        "Thick airfoils → higher structural strength",
+        "Thin airfoils → lower drag"
+      ],
+      "manufacturability": [
+        "Very thin profiles (<6% chord) are fragile and hard to produce",
+        "Typical maximum thickness ~12% to 18% of chord for general aviation airfoils"
+      ]
+    },
+    "symmetry": {
+      "aerodynamic": [
+        "Symmetrical → zero lift at 0° AoA",
+        "Cambered → lift at 0° AoA"
+      ],
+      "manufacturability": [
+        "Symmetrical shapes are simpler to mold or machine"
+      ]
+    },
+    "chordwise_shape_taper": {
+      "aerodynamic": [
+        "Rapid taper → lower drag but may affect stall",
+        "Gentle taper → more stable flow"
+      ],
+      "manufacturability": [
+        "Avoid taper angles >10° for easier tooling"
+      ]
+    },
+    "surface_smoothness": {
+      "aerodynamic": [
+        "Abrupt kinks or roughness → early transition, separation, higher drag"
+      ],
+      "manufacturability": [
+        "Maintain smooth curves without sharp steps",
+        "Roughness height <0.05% of chord recommended for laminar airfoils"
+      ]
+    },
+    "structural_considerations": {
+      "aerodynamic": [
+        "Thickness and curvature must balance lift, drag, and moment requirements"
+      ],
+      "manufacturability": [
+        "Ensure minimum thickness ≥3% of chord for structural integrity",
+        "Avoid sharp internal angles or deep concave surfaces"
+      ]
+    },
+    "practical_fabrication_tips": [
+      "Avoid excessively sharp leading/trailing edges",
+      "Keep curvature changes gradual for easier tooling",
+      "Ensure minimum thickness is sufficient for structural integrity",
+      "Favor surfaces that can be consistently reproduced with available manufacturing methods (CNC, molding, composite layup)"
+    ],
+    "quick_visual_rule_of_thumb": [
+      "Rounded, smooth leading edge + moderate camber (~3–6%) + gentle thickness taper (~12–18% chord) → aerodynamically efficient and easier to manufacture",
+      "Extreme thin edges, abrupt curvature, or unusual camber spikes → may perform well theoretically but are difficult and costly to produce"
+    ]
+  }
+}
