@@ -1,31 +1,21 @@
-
 import pandas as pd
 import os
-# os.environ["CREWAI_DISABLE_TELEMETRY"] = "true"
-import json
-import shutil
-# import opik
-# import listeners
-import agentops
 from typing import Optional, List, Dict, Set
 from crewai.flow.flow import Flow, router, start, listen, or_, and_
 from pydantic import BaseModel
-from crews_rev2.design_crew.design_crew import (
+from crews.design_crew.design_crew import (
     DesignCrew,
 )
-from crews_rev2.systems_engineering_crew.systems_engg_crew import (
+from crews.systems_engineering_crew.systems_engg_crew import (
     SystemsEnggCrew
 )
 from crewai_files import ImageFile, TextFile
-# from opik.integrations.crewai import track_crewai
-#
-# # opik.configure(use_local=False)
-# track_crewai(project_name="Design_Crew")
-
-# TODO: Remove lines for printing Retrieved knowledge chunks from /users/vkumar24/data/vkumar24/virtual_envs/knowledge_graph/lib/python3.11/site-packages/crewai/knowledge/storage/knowledge_storage.py
-
 from utils import plot_airfoil
 
+
+#--------Add your specific LLM API keys here-----------
+os.environ['OPENAI_API_KEY'] = ''
+os.environ['GEMINI_API_KEY'] = ''
 
 class AirfoilDesignFlowState(BaseModel):
     design_ID: List = []
@@ -166,10 +156,6 @@ class AirfoilDesignFlow(Flow[AirfoilDesignFlowState]):
                 self.state.valid = response['Valid']
 
             self.state.retry_count += 1
-        # if self.state.retry_count < 3:
-        #     return "suggestions"
-        # else:
-        #     return "review_complete"
         if self.state.valid or self.state.retry_count > 3:
             return "review_complete"
         else:
@@ -178,11 +164,6 @@ class AirfoilDesignFlow(Flow[AirfoilDesignFlowState]):
     @listen("review_complete")
     # @listen("tech_requirement_generated")
     def optimize_design(self):
-        # response = (
-        #     DesignCrew()
-        #     .crew_optimize()
-        #     .kickoff(inputs={"engg_requirements": self.state.engg_requirements})
-        # )
         print('All processes completed')
         return self.state.sys_engg_feedback
 
@@ -190,36 +171,9 @@ class AirfoilDesignFlow(Flow[AirfoilDesignFlowState]):
 def kickoff():
     with open("design_reqs.txt", "r") as reqs:
         design_requirements = reqs.read()
-
-    # shutil.rmtree(".crewai_storage", ignore_errors=True)
-    # shutil.rmtree(".crew_data", ignore_errors=True)
     design_flow = AirfoilDesignFlow(design_requirements)
     final_output = design_flow.kickoff()
     print(f"Final output: {final_output}")
-    agentops.end_trace()
-    # plot_airfoil('./data_storage/optimized_airfoil.txt', 'optimized_airfoil')
-
-
-#
-
-# def kickoff_optimizer():
-#     with open("optimization_reqs.txt", "r") as reqs:
-#         optimization_requirements = reqs.read()
-#
-#     with open('./design_analysis/design_assessment.json', 'r') as file:
-#         design_analysis = json.load(file)
-#     result = (
-#             OptimizationCrew()
-#             .crew()
-#             .kickoff(
-#                 inputs={
-#                     "optimization": optimization_requirements,
-#                     "design_analysis": design_analysis,
-#                 }
-#             )
-#         )
-#     print(result.raw)
-#     plot_airfoil('./data_storage/optimized_airfoil.txt', 'optimized_airfoil')
 
 
 def plot():
@@ -230,8 +184,4 @@ def plot():
 
 
 if __name__ == "__main__":
-    # kickoff_optimizer()
-    agentops.init(api_key='44d1c4a2-3465-4906-906f-614aa23dfd87', skip_auto_end_session=True,
-                  trace_name='KG_rev2_Run11_rerun1')
     kickoff()
-    # plot()

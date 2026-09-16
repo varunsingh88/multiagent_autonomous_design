@@ -156,24 +156,3 @@ class SystemsEnggCrew:
             #    "url":"http://localhost:11434/api/embeddings",
             # }
         )
-
-
-# def kickoff():
-#     img_folder = "./data_storage"
-#     data_evaluationloc = "./data_storage/design_evaluation.csv"
-#     df = pd.read_csv(data_evaluationloc)
-#     analysis_ls = []
-#     DesignReviewCrew().crew().reset_memories(command_type="knowledge")
-#     for _, row in df.iterrows():
-#         img_file_path = os.path.join(img_folder, row['design_ID']+'.png')
-#
-#         result = (
-#             DesignReviewCrew().crew().kickoff(inputs={"image_location": img_file_path, 'CD': row['CD'], 'CL': row['CL'], 'CM':row['CM']})
-#         )
-#         print(result.raw)
-#         analysis_ls.append(result.raw)
-#         t = 1
-#
-#
-# if __name__ == "__main__":
-#     kickoff()

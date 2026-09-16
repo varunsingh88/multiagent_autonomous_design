@@ -124,13 +124,6 @@ class DesignCrew:
     def revise_analysis(self) -> Task:
         return Task(config=self.tasks_config["revise_analysis"])
 
-    # @task
-    # def optimize_design(self) -> Task:
-    #     return Task(
-    #         config=self.tasks_config["optimize_design"],
-    #         output_pydantic=OptimizationOutput,
-    #     )
-
     @crew
     def crew_design_tasks(self) -> Crew:
         """Creates the designing crew"""
@@ -174,20 +167,3 @@ class DesignCrew:
             #     "url": "http://localhost:11434/api/embeddings",
             # }
         )
-
-    # @crew
-    # def crew_optimize(self) -> Crew:
-    #     """Creates the optimization crew"""
-    #     return Crew(
-    #         agents=self.agents,  # Automatically created by the @agent decorator
-    #         tasks=[self.optimize_design()],
-    #         process=Process.sequential,
-    #         verbose=False,
-    #         # memory=True,
-    #         knowledge_sources=[self.knowledge_base_designer],
-    #         # embedder={
-    #         #     "provider": "ollama",
-    #         #     "config": {"model": "nomic-embed-text:v1.5",
-    #         #                "url":"http://localhost:11434/api/embeddings"},
-    #         # },
-    #     )

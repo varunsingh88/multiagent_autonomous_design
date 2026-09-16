@@ -56,22 +56,3 @@ revise_analysis:
   expected_output: >
     A confirmation string when aerodynamic analysis is complete with design revision#
   agent: airfoil_designer
-
-#optimize_design:
-#  description: >
-#    Your task is to review the {optimization} problem provided to you along with the {design_analysis} for few airfoil shapes provided by the systems_engineer. From the design_analysis, you should select one airfoil shape that is promising in terms of meeting the optimization objectives and constraints. You should also use your knowledge source to make this selection. Specifically label the elements of your response that was retrieved from the knowledge source as (src:KG, retieved knowledge info), along with reasoning for why this information was retrieved from the knowledge source. The design_analysis from the systems_engineer will have a `design_ID' for each airfoil, so identify this design_ID. Format this design_ID to remove any filetype such as `.png' or '.jpg', and then pass it to the `Optimization_tool' along with other optimization parameters required by the `Optimization_tool' that you extract from the optimization problem. If you receive a human input, please process the request and re-run this task if required.
-#
-#    Your final response must include:
-#    - design_ID: design ID for airfoil profile selected for optimization process
-#    - feedback: Provide commentary on your reason for selecting the design for optimization
-#    - optimized_airfoil_loc: Full directory location where final optimized airfoil coordinates is saved
-#  expected_output: >
-#    - design_ID
-#    - feedback
-#    - optimized_airfoil_loc
-#    Ensure that each entry is on a separate line for readability
-#  markdown: False
-#  output_file: ./design_analysis/optim_engg_feedback.md
-#  create_directory: True
-#  agent: airfoil_designer
-#  human_input: True
