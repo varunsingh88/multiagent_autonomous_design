@@ -1,0 +1,1 @@
+Develop a 4-series NACA airfoil that has the maximum lift to drag ratio at Mach=0.6. You can assume Re=5e6 approximately and an AoA=0 deg for this development.
